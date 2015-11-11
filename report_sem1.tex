@@ -1,0 +1,29 @@
+\documentclass[a4paper,11pt,twocolumn]{article}
+\usepackage[top=1.2in, bottom=1in, left=1.4in, right=1.4in]{geometry}
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+\title{Constant Propagation Optimization\\ {\normalsize CS4089 Project\\End Semester Report}}
+\author{Name1 (Roll Number1)\\ Name2 (Roll Number2)\\Guided By: Name of Guide}
+\begin{document}
+\maketitle
+\abstract{} 
+This report presents an analysis for doing the Constant Propagation optimization. 
+\section{Introduction}
+Compiler optimization refers to the compilation phase that deals with the  generation of better code (code that runs faster and/or takes less space). The information required for doing optimizations are collected through Program analysis. Constant Propagation is an optimization which replaces the use of a variable by a constant, if it can be inferred that every definition of the variable that reaches this use assigns the variable the same constant value. The analysis required for this optimization is the \textit{Reaching Definitions Analysis}. 
+\section{Problem Statement}
+The problem is to do the Constant Propagation optimization in a program in three address code. This involves the formulation of an analysis to compute the set of variable definitions at every point in the program.
+\section{Literature Survey }
+The fundamentals of compiler optimization and data-flow analysis are presented by Muchnik  \cite{much}. Gulwani and Necula \cite{sumit} present different techniques for computing equivalent expressions.
+\section{Work Done}
+The work that you have done so far related with the project. Include separate sections for design details and implementations, if any. 
+\section{Future Work and Conclusions}
+The work that you are planning to complete in the coming semester should be stated clearly. 
+
+\begin{thebibliography}{}
+\bibitem{much}
+Steven Muchnik. \textit{Advanced Compiler Implementation}, Morgan Kauffman Publishers, 1997.
+\bibitem{sumit}
+Sumit Gulwani and George C Necula. A polynomial time Algorithm for Global Value Numbering, \textit{Science of Computer Programming}, 64(1):97-114, January 2007.
+\end{thebibliography}{}
+\end{document}
+
