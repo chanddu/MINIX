@@ -11,27 +11,27 @@
 \abstract{} 
 This report presents a method of solving Synchronization problems in MINIX. 
 \section{Introduction}
-\textit{Process synchronization} refers to the idea that multiple processes are to join up or handshake at a certain point, in order to reach an agreement or commit to a certain sequence of action. If proper synchronization techniques are not applied, it may cause a race condition where, the values of variables may be unpredictable and vary depending on the timings of context switches of the processes or threads.This project is inclined to solving the synchronization problems in Minix operating system. This is achieved by the addition of a new Minix service, Semaphore. Given the semaphore service, the users can invoke it to solve synchronization issues through system calls.
+\textit{Process synchronization} refers to the idea that multiple processes are to join up or handshake at a certain point, in order to reach an agreement or commit to a certain sequence of actions. If proper synchronization techniques are not applied, it may cause a race condition where, the values of variables may be unpredictable and vary depending on the timings of context switches of the processes or threads.This project is inclined to solving the synchronization problems in Minix operating system. This is achieved by the addition of a new Minix service, Semaphore. Given the semaphore service, the users can invoke it to solve synchronization issues through system calls.
 \subsection{The Internal Structure of MINIX 3}
 MINIX 3 is structured in four layers with each layer performing a well defined function. The four different layers are illustrated in Fig.1-1
-\includegraphics{internalStructure}
+
 The bottom layer contains kernel which schedules processes and manages the transitions between the ready, running and blocked states. The kernel also handles all the messages between processes. One of the main functions of the layer1 is to provide a set of privileged kernel calls to the drivers and servers above it like reading and writing I/O ports, copying data between addresses.
 
 The three layers above the bottom layer could be considered to be a single layer because the kernel treats them the same way. Each one is limited to user mode instructions, and each is scheduled to be run by the kernel. However processes have special privileges(such as the ability to make kernel calls). The processes in layer 2 have the most privileges, those in layer 3 have fewer whereas processes in layer4 have none. This is the real difference between these layers.
 
-The second layer consists of device drivers which are allowed to request that the system ask read data from or write data to I/O ports. The third layer contains servers, processes that provide useful services to the user processes. Most important processes in the layer3 are the PROCESS MANAGER(PM) which carries the system calls related to process execution and the FILE SYSTEM(FS) which carries out file system calls such as read, mount, and chdir. Finally, the layer4 contains all the user process shells, editors, compilers and user-written a.out programs
+The second layer consists of device drivers which are allowed to request that the system task read data from or write data to I/O ports. The third layer contains servers, processes that provide useful services to the user processes. Most important processes in the layer3 are the PROCESS MANAGER(PM) which carries the system calls related to process execution and the FILE SYSTEM(FS) which carries out file system calls such as read, mount, and chdir. Finally, the layer4 contains all the user process shells, editors, compilers and user-written a.out programs
 
-The aim of this project is to achieve synchronization among the processes in the layer4 which are the user programs.
+The aim of this project is to achieve synchronization among the processes in \includegraphics[width=16cm,height=8cm]{layerss} \clearpage the layer4 which are the user programs.
 
 \subsection{Interprocess Communication in MINIX 3}
 The different processes present in MINIX communicate through primitive message passing. Three primitives are provided for sending and receiving messages. They are called by the C library procedures.\\
 \begin{description}
   \item[$\bullet$ send(dest, \&message);] to send a message to process dest
   \item[$\bullet$ receive(source, \&message);] to receive a message from process source(or ANY)
-  \item[$\bullet$ sendrec(src\_dst, \&message);] to send a message and wait for a reply from the same process
+  \item[$\bullet$ sendrec(src\_dst, \&message);] to send a message and wait for a reply from the same process. This is peer level.
 \end{description}
 
-Each task, driver or server process is allowed to exchange messages only with certain other processes. The usual flow of messages is downward in the layers and messages can be between processes in the same layer and processes between adjacent layers. User processes cannot exchange messages between each other. When a process sends a message to another process to a process that is not currently waiting for a message, the sender blocks until destination does a receive thereby eliminating the need for buffer management.
+Each task, driver or server process is allowed to exchange messages only with certain other processes. The usual flow of messages is downward in the layers and messages can be between processes in the same layer and processes between adjacent layers. User processes cannot exchange messages between each other. When a process sends a message to another process that is not currently waiting for a message, the sender blocks until destination does a receive thereby eliminating the need for buffer management.
 
 There exists another important message passing primitive. It is called by the C library procedure\\
 
@@ -47,12 +47,11 @@ The Internal structure, Interprocess Communication and Implementation of process
 \section{Work Done}
 A semaphore is a variable that is used for controlling access, by multiple processes, to a common resource in a concurrent system such as a multiprogramming operating system. A trivial semaphore is a plain variable that is changed (for example, incremented, decremented, toggled)  and is then used as a condition to control access to some system resource. Semaphores which allow an arbitrary resource count are called counting semaphores, while semaphores which are restricted to the values 0 or 1 are called binary semaphores. Semaphores are a useful tool in preventing race conditions.
 
-Semaphores are accessed only through two standard atomic operations:\\
-
+Semaphores are accessed only through two standard atomic operations:
 
 	P(S):\\
 		while S\textless=0\\
-		do no-op;\\
+		block;\\
 		S:=S-1;\\
 	V(S):\\
 		S:=S+1;\\
@@ -90,7 +89,7 @@ There are a few unused entries. no\_sys represents an unused entry. For adding a
 
 The next step is to declare a prototype of the system call handler in file /usr/src/servers/sema/proto.h. This file contains the prototypes of all system call handler functions. The below figure contains the prototype declarations from /usr/src/servers/fs/proto.h. We should add the prototypes for our system call handlers to the proto.h.\\
 
-\_PROTOTYPE(int SEM\_INIT,(int));\\
+\_PROTOTYPE(int SEM\_INIT,(int));
 
 \includegraphics{proto}
 
@@ -115,12 +114,12 @@ If this routine does not find an empty entry in the semaphore table, it creates 
 \end{description}
 
 \subsection{ Creating a User Library Function: }
-A user library function would package the parameters for the system call handler in the message structure and would call the handler function. First, we should use \#define to map the system call number of the handler function to an identifier in the file /usr/src/include/minix/callnr.h and usr/src/include/minix/callnr.h. We implement the library function for the SEMINIT system call in a separate file called \_seminit.c. This file should be placed in the directory /usr/src/lib/posix/.
+A user library function would package the parameters for the system call handler in the message structure and would call the handler function. First, we should use \#define to map the system call number of the handler function to an identifier in the file /usr/src/include/minix/callnr.h and usr/include/minix/callnr.h. We implement the library function for the SEMINIT system call in a separate file called \_seminit.c. This file should be placed in the directory /usr/src/lib/posix/.
 
 Steps to compile the new library
 
 \begin{description}
-  \item[$\bullet$ ] Go to the directory /usr/src/lib/posix/
+  \item[$\bullet$ ] Go to /usr/src/lib/posix/
   \item[$\bullet$ ] Add the name of the file in the usr/src/lib/posix/Makefile.in.
   \item[$\bullet$ ] Issue the command “make Makefile”.
   \item[$\bullet$ ] Go to the directory /usr/src/
@@ -132,7 +131,7 @@ Steps to compile the new library
 
 The semaphore service will require two things, making a service that is started on boot up, and putting the processes to sleep and waking them up at the appropriate time. We can build our sema server by copying a server like system scheduler server. Most servers have the same basic structure: a dispatch loop that checks for messages and executes system calls and some routines to initialize and exit the server. The source code for the scheduler service can be found at /usr/src/servers/sched. We can copy the code using the below command:\\
 
-cp –r /usr/src/servers/sched /usr/src/servers/sema\\
+cp r /usr/src/servers/sched /usr/src/servers/sema\\
 
 \begin{description}
   \item[$\bullet$ ] We need to modify the Makefile in /usr/src/servers/sema folder to update the name of the binary
