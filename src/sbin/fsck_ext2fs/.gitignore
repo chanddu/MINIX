@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.fsck_ext2fs
+fsck_ext2fs

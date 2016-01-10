@@ -1,0 +1,211 @@
+adler32.o adler32.po adler32.so adler32.go adler32.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/adler32.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h
+compress.o compress.po compress.so compress.go compress.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/compress.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h
+deflate.o deflate.po deflate.so deflate.go deflate.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/deflate.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/deflate.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h
+infback.o infback.po infback.so infback.go infback.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/infback.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inftrees.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inflate.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffast.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffixed.h
+inffast.o inffast.po inffast.so inffast.go inffast.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffast.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inftrees.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inflate.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffast.h
+inflate.o inflate.po inflate.so inflate.go inflate.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inflate.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inftrees.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inflate.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffast.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inffixed.h
+inftrees.o inftrees.po inftrees.so inftrees.go inftrees.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inftrees.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/inftrees.h
+trees.o trees.po trees.so trees.go trees.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/trees.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/deflate.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/trees.h
+uncompr.o uncompr.po uncompr.so uncompr.go uncompr.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/uncompr.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h
+zalloc.o zalloc.po zalloc.so zalloc.go zalloc.ln: \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/zalloc.c \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zutil.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../.././lib/libz/../../../lib/libz/zconf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/stddef.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../stdlib.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/boot/biosboot/../../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h

@@ -1,0 +1,9 @@
+lib
+machine
+x86
+bootxx_ext2fs.sym
+bootxx_ext2fs.map
+*.gcno
+*.gcda
+lcov.bootxx_ext2fs
+bootxx_ext2fs

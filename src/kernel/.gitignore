@@ -1,0 +1,7 @@
+*.gcno
+*.gcda
+lcov.kernel
+extracted-errno.h
+extracted-mfield.h
+extracted-mtype.h
+kernel

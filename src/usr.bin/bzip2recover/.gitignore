@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.bzip2recover
+bzip2recover

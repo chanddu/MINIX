@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.installboot_nbsd
+installboot_nbsd

@@ -1,0 +1,11 @@
+lib
+machine
+x86
+boot_monitor.tmp
+boot_monitor.map
+boot_monitor.syms
+vers.c
+*.gcno
+*.gcda
+lcov.boot_monitor
+boot_monitor

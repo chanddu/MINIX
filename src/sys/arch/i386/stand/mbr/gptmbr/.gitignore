@@ -1,0 +1,5 @@
+gptmbr.bin.tmp
+*.gcno
+*.gcda
+lcov.gptmbr.bin
+gptmbr.bin

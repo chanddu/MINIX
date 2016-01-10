@@ -1,0 +1,4 @@
+terminfo.db
+*.gcno
+*.gcda
+lcov.

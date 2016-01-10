@@ -1,0 +1,5 @@
+imgrd.mfs
+*.gcno
+*.gcda
+lcov.memory
+memory

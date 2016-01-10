@@ -1,0 +1,8 @@
+scan.c
+skel.c
+*.gcno
+*.gcda
+lcov.lex
+parse.c
+parse.h
+lex

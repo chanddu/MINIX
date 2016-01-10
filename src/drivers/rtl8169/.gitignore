@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.rtl8169
+rtl8169

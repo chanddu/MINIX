@@ -1,0 +1,8 @@
+maketab
+proctab.c
+*.gcno
+*.gcda
+lcov.awk
+awkgram.c
+awkgram.h
+awk

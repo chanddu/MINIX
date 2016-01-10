@@ -1,0 +1,515 @@
+bios_disk.o bios_disk.po bios_disk.so bios_disk.go bios_disk.ln: /usr/src/sys/arch/i386/stand/lib/bios_disk.S \
+  /usr/include/machine/asm.h
+biosdelay.o biosdelay.po biosdelay.so biosdelay.go biosdelay.ln: /usr/src/sys/arch/i386/stand/lib/biosdelay.S \
+  /usr/include/machine/asm.h
+biosdisk.o biosdisk.po biosdisk.so biosdisk.go biosdisk.ln: /usr/src/sys/arch/i386/stand/lib/biosdisk.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h /usr/include/sys/md5.h \
+  /usr/include/sys/param.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/stackframe.h \
+  /usr/include/machine/fpu.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/disklabel.h \
+  /usr/include/machine/disklabel.h /usr/include/sys/bootblock.h \
+  /usr/include/sys/dkbad.h /usr/include/sys/disklabel_gpt.h \
+  /usr/include/sys/uuid.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../fs/cd9660/iso.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cpu.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/cpu.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/biosdisk_ll.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/biosdisk.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h
+biosdisk_ll.o biosdisk_ll.po biosdisk_ll.so biosdisk_ll.go biosdisk_ll.ln: /usr/src/sys/arch/i386/stand/lib/biosdisk_ll.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/biosdisk_ll.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/diskbuf.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+biosgetrtc.o biosgetrtc.po biosgetrtc.so biosgetrtc.go biosgetrtc.ln: /usr/src/sys/arch/i386/stand/lib/biosgetrtc.S \
+  /usr/include/machine/asm.h
+biosgetsystime.o biosgetsystime.po biosgetsystime.so biosgetsystime.go biosgetsystime.ln: /usr/src/sys/arch/i386/stand/lib/biosgetsystime.S \
+  /usr/include/machine/asm.h
+biosmca.o biosmca.po biosmca.so biosmca.go biosmca.ln: /usr/src/sys/arch/i386/stand/lib/biosmca.S \
+  /usr/include/machine/asm.h
+biosmem.o biosmem.po biosmem.so biosmem.go biosmem.ln: /usr/src/sys/arch/i386/stand/lib/biosmem.S \
+  /usr/include/machine/asm.h
+biosmemps2.o biosmemps2.po biosmemps2.so biosmemps2.go biosmemps2.ln: /usr/src/sys/arch/i386/stand/lib/biosmemps2.S \
+  /usr/include/machine/asm.h
+biosmemx.o biosmemx.po biosmemx.so biosmemx.go biosmemx.ln: /usr/src/sys/arch/i386/stand/lib/biosmemx.S \
+  /usr/include/machine/asm.h
+biosreboot.o biosreboot.po biosreboot.so biosreboot.go biosreboot.ln: /usr/src/sys/arch/i386/stand/lib/biosreboot.S \
+  /usr/include/machine/asm.h
+biosvbe.o biosvbe.po biosvbe.so biosvbe.go biosvbe.ln: /usr/src/sys/arch/i386/stand/lib/biosvbe.S \
+  /usr/include/machine/asm.h
+biosvideomode.o biosvideomode.po biosvideomode.so biosvideomode.go biosvideomode.ln: /usr/src/sys/arch/i386/stand/lib/biosvideomode.S \
+  /usr/include/machine/asm.h
+bootinfo.o bootinfo.po bootinfo.so bootinfo.go bootinfo.ln: /usr/src/sys/arch/i386/stand/lib/bootinfo.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h \
+  /usr/include/sys/bootblock.h
+bootinfo_biosgeom.o bootinfo_biosgeom.po bootinfo_biosgeom.so bootinfo_biosgeom.go bootinfo_biosgeom.ln: /usr/src/sys/arch/i386/stand/lib/bootinfo_biosgeom.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/machine/disklabel.h \
+  /usr/include/sys/bootblock.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/dkbad.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cpu.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/cpu.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/biosdisk_ll.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h
+bootinfo_memmap.o bootinfo_memmap.po bootinfo_memmap.so bootinfo_memmap.go bootinfo_memmap.ln: /usr/src/sys/arch/i386/stand/lib/bootinfo_memmap.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h \
+  /usr/include/sys/bootblock.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h
+bootmenu.o bootmenu.po bootmenu.so bootmenu.go bootmenu.ln: /usr/src/sys/arch/i386/stand/lib/bootmenu.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/reboot.h \
+  /usr/include/sys/bootblock.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/ufs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootmenu.h
+comio.o comio.po comio.so comio.go comio.ln: /usr/src/sys/arch/i386/stand/lib/comio.S \
+  /usr/include/machine/asm.h
+comio_direct.o comio_direct.po comio_direct.so comio_direct.go comio_direct.ln: /usr/src/sys/arch/i386/stand/lib/comio_direct.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/pio.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/pio.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../dev/ic/comreg.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../dev/ic/ns16550reg.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/comio_direct.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+conio.o conio.po conio.so conio.go conio.ln: /usr/src/sys/arch/i386/stand/lib/conio.S \
+  /usr/include/machine/asm.h
+cpufunc.o cpufunc.po cpufunc.so cpufunc.go cpufunc.ln: /usr/src/sys/arch/i386/stand/lib/cpufunc.S \
+  /usr/include/machine/asm.h
+diskbuf.o diskbuf.po diskbuf.so diskbuf.go diskbuf.ln: /usr/src/sys/arch/i386/stand/lib/diskbuf.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/diskbuf.h
+dump_eax.o dump_eax.po dump_eax.so dump_eax.go dump_eax.ln: /usr/src/sys/arch/i386/stand/lib/dump_eax.S \
+  /usr/include/machine/asm.h
+gatea20.o gatea20.po gatea20.so gatea20.go gatea20.ln: /usr/src/sys/arch/i386/stand/lib/gatea20.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/biosmca.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/cpufunc.h
+getextmemx.o getextmemx.po getextmemx.so getextmemx.go getextmemx.ln: /usr/src/sys/arch/i386/stand/lib/getextmemx.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+getsecs.o getsecs.po getsecs.so getsecs.go getsecs.ln: /usr/src/sys/arch/i386/stand/lib/getsecs.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/net.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../netinet/in.h \
+  /usr/include/netinet6/in6.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/sys/ucred.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../netinet/in_systm.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/iodesc.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+menuutils.o menuutils.po menuutils.so menuutils.go menuutils.ln: /usr/src/sys/arch/i386/stand/lib/menuutils.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+message.o message.po message.so message.go message.ln: /usr/src/sys/arch/i386/stand/lib/message.S \
+  /usr/include/machine/asm.h
+message32.o message32.po message32.so message32.go message32.ln: /usr/src/sys/arch/i386/stand/lib/message32.S \
+  /usr/include/machine/asm.h
+multiboot.o multiboot.po multiboot.so multiboot.go multiboot.ln: /usr/src/sys/arch/i386/stand/lib/multiboot.S \
+  /usr/include/machine/asm.h
+parseutils.o parseutils.po parseutils.so parseutils.go parseutils.ln: /usr/src/sys/arch/i386/stand/lib/parseutils.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/boot_flag.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/reboot.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+pcio.o pcio.po pcio.so pcio.go pcio.ln: /usr/src/sys/arch/i386/stand/lib/pcio.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/null.h \
+  /usr/include/sys/bootblock.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h
+pread.o pread.po pread.so pread.go pread.ln: /usr/src/sys/arch/i386/stand/lib/pread.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+printmemlist.o printmemlist.po printmemlist.so printmemlist.go printmemlist.ln: /usr/src/sys/arch/i386/stand/lib/printmemlist.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h
+putstr.o putstr.po putstr.so putstr.go putstr.ln: /usr/src/sys/arch/i386/stand/lib/putstr.S \
+  /usr/include/machine/asm.h
+putstr32.o putstr32.po putstr32.so putstr32.go putstr32.ln: /usr/src/sys/arch/i386/stand/lib/putstr32.S \
+  /usr/include/machine/asm.h
+pvcopy.o pvcopy.po pvcopy.so pvcopy.go pvcopy.ln: /usr/src/sys/arch/i386/stand/lib/pvcopy.S \
+  /usr/include/machine/asm.h
+rasops.o rasops.po rasops.so rasops.go rasops.ln: /usr/src/sys/arch/i386/stand/lib/rasops.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h
+realprot.o realprot.po realprot.so realprot.go realprot.ln: /usr/src/sys/arch/i386/stand/lib/realprot.S \
+  /usr/include/machine/asm.h
+startprog.o startprog.po startprog.so startprog.go startprog.ln: /usr/src/sys/arch/i386/stand/lib/startprog.S \
+  /usr/include/machine/asm.h
+vbe.o vbe.po vbe.so vbe.go vbe.ln: /usr/src/sys/arch/i386/stand/lib/vbe.c \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libsa/stand.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/minix/limits.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stat.h \
+  /usr/include/sys/time.h /usr/include/machine/vmparam.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../sys/stdarg.h \
+  /usr/include/stdarg.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saioctl.h \
+  /usr/src/sys/arch/i386/stand/lib/../../../../lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../../../../lib/libkern/libkern.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/null.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/machine/bootinfo.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/x86/bootinfo.h \
+  /usr/include/sys/bootblock.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/libi386.h \
+  /usr/src/sys/arch/i386/stand/bootxx/bootxx_ext2fs/../../lib/vbe.h

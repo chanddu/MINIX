@@ -1,0 +1,5 @@
+mbr_bootsel.tmp
+*.gcno
+*.gcda
+lcov.mbr_bootsel
+mbr_bootsel

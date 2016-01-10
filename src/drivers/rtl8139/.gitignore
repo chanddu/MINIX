@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.rtl8139
+rtl8139

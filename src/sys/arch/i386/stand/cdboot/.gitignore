@@ -1,0 +1,5 @@
+bootxx_cd9660.tmp
+*.gcno
+*.gcda
+lcov.bootxx_cd9660
+bootxx_cd9660

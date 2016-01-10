@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.pr_routes
+pr_routes

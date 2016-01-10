@@ -1,0 +1,5 @@
+mbr.tmp
+*.gcno
+*.gcda
+lcov.mbr
+mbr

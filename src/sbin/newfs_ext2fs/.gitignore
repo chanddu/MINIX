@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.newfs_ext2fs
+newfs_ext2fs

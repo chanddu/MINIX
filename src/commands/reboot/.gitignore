@@ -1,0 +1,5 @@
+*.gcno
+*.gcda
+lcov.
+shutdown
+halt

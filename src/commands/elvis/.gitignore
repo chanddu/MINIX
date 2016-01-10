@@ -1,0 +1,9 @@
+*.gcno
+*.gcda
+lcov.
+elvis
+ctags
+ref
+elvrec
+fmt
+elvprsv

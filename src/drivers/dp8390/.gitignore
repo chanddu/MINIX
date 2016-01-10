@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.dp8390
+dp8390

@@ -1,0 +1,9 @@
+lib
+machine
+x86
+bootxx_minixfs3.sym
+bootxx_minixfs3.map
+*.gcno
+*.gcda
+lcov.bootxx_minixfs3
+bootxx_minixfs3

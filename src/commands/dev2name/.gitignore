@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.dev2name
+dev2name

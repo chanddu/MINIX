@@ -1,0 +1,5 @@
+mbr_com0.tmp
+*.gcno
+*.gcda
+lcov.mbr_com0
+mbr_com0

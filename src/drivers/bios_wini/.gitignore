@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.bios_wini
+bios_wini

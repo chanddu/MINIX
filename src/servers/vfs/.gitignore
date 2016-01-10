@@ -1,0 +1,4 @@
+*.gcno
+*.gcda
+lcov.vfs
+vfs
