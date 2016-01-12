@@ -1,5 +1,5 @@
-#ifndef _DS_INC_H
-#define _DS_INC_H
+#ifndef _SEMA_INC_H
+#define _SEMA_INC_H
 
 /* Header file including all needed system headers. */
 
