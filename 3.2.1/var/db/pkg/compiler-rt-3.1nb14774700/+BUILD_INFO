@@ -1,0 +1,33 @@
+ABI=
+BUILD_DATE=2012-03-07 09:07:43 +0100
+BUILD_HOST=Minix minix 3.2.1 i686
+CATEGORIES=minix
+CC_VERSION=gcc-4.4.6
+CFLAGS=-Wno-error -march=i586 -march=i486
+CMAKE_ARGS= -DCMAKE_INSTALL_PREFIX:PATH=/usr/pkg -DCMAKE_MODULE_PATH:PATH=/usr/tmp/work/minix/compiler-rt/work/.buildlink/cmake-Modules -DCMAKE_SKIP_RPATH:BOOL=TRUE
+CONFIGURE_ARGS=
+CONFIGURE_ENV=INSTALL_INFO= MAKEINFO=/usr/tmp/work/minix/compiler-rt/work/.tools/bin/makeinfo PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/tmp/work/minix/compiler-rt/work/.buildlink/lib/pkgconfig:/usr/tmp/work/minix/compiler-rt/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/tmp/work/minix/compiler-rt/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -march=i586\ -march=i486 CPPFLAGS=-D_NETBSD_SOURCE\ -D_MINIX\ -D_POSIX_SOURCE\ -D_COMPAT_MINIX CXX=g++ CXXFLAGS=-Wno-error\ -march=i586\ -march=i486\ -D_NETBSD_SOURCE COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-lcompat_minix\ -lminlib\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/tmp/work/minix/compiler-rt/work/.wrapper/bin:/usr/tmp/work/minix/compiler-rt/work/.buildlink/bin:/usr/tmp/work/minix/compiler-rt/work/.gcc/bin:/usr/tmp/work/minix/compiler-rt/work/.tools/bin:/usr/pkg/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg.sav/gcc44/bin:/usr/pkg.sav/bin:/usr/pkg.sav/sbin:/home/beng/bin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/pkg/X11R6/bin:/usr/pkg/bin:/usr/pkg/X11R6/bin PREFIX=/usr/pkg PKG_SYSCONFDIR=/usr/pkg/etc CXXCPP=cpp HOME=/usr/tmp/work/minix/compiler-rt/work/.home
+CPPFLAGS= -D_NETBSD_SOURCE -D_MINIX -D_POSIX_SOURCE -D_COMPAT_MINIX  
+FFLAGS=-O
+LDFLAGS= -lcompat_minix -lminlib  -Wl,-R/usr/pkg/lib
+LICENSE=
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=ben@minix3.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=a.out
+OPSYS=Minix
+OS_VERSION=3.2.1
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=minix/compiler-rt
+PKGTOOLS_VERSION=20110805
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=no

@@ -1,14 +1,14 @@
-/* Data Store Server. 
- * This service implements a little publish/subscribe data store that is 
+/* Data Store Server.
+ * This service implements a little publish/subscribe data store that is
  * crucial for the system's fault tolerance. Components that require state
  * can store it here, for later retrieval, e.g., after a crash and subsequent
- * restart by the reincarnation server. 
- * 
+ * restart by the reincarnation server.
+ *
  * Created:
  *   Oct 19, 2005	by Jorrit N. Herder
  */
 
-#include "inc.h"	/* include master header file */
+#include "sema.h"	/* include master header file */
 #include <minix/endpoint.h>
 
 /* Allocate space for the global variables. */
@@ -27,56 +27,44 @@ FORWARD _PROTOTYPE( void sef_local_startup, (void) );
  *===========================================================================*/
 PUBLIC int main(int argc, char **argv)
 {
-/* This is the main routine of this service. The main loop consists of 
+/* This is the main routine of this service. The main loop consists of
  * three major activities: getting new work, processing the work, and
  * sending the reply. The loop never terminates, unless a panic occurs.
  */
   message m;
-  int result;                 
+  int result;
 
   /* SEF local startup. */
   env_setargs(argc, argv);
   sef_local_startup();
 
-  /* Main loop - get work and do it, forever. */         
-  while (TRUE) {              
+  /* Main loop - get work and do it, forever. */
+  while (TRUE) {
 
       /* Wait for incoming message, sets 'callnr' and 'who'. */
       get_work(&m);
 
       if (is_notify(callnr)) {
-          printf("DS: warning, got illegal notify from: %d\n", m.m_source);
+          printf("SEMA: warning, got illegal notify from: %d\n", m.m_source);
           result = EINVAL;
           goto send_reply;
       }
 
       switch (callnr) {
-      case DS_PUBLISH:
+      case SEMINIT:
           result = do_publish(&m);
           break;
-      case DS_RETRIEVE:
+      case SEMDOWN:
 	  result = do_retrieve(&m);
 	  break;
-      case DS_RETRIEVE_LABEL:
+      case SEMUP:
 	  result = do_retrieve_label(&m);
 	  break;
-      case DS_DELETE:
+      case SEMRELEASE:
 	  result = do_delete(&m);
 	  break;
-      case DS_SUBSCRIBE:
-	  result = do_subscribe(&m);
-	  break;
-      case DS_CHECK:
-	  result = do_check(&m);
-	  break;
-      case DS_SNAPSHOT:
-	  result = do_snapshot(&m);
-	  break;
-      case COMMON_GETSYSINFO:
-	  result = do_getsysinfo(&m);
-	  break;
-      default: 
-          printf("DS: warning, got illegal request from %d\n", m.m_source);
+      default:
+          printf("SEMA: warning, got illegal request from %d\n", m.m_source);
           result = EINVAL;
       }
 
@@ -129,6 +117,5 @@ PRIVATE void reply(
 {
     int s = send(who_e, m_ptr);    /* send the message */
     if (OK != s)
-        printf("DS: unable to send reply to %d: %d\n", who_e, s);
+        printf("SEMA: unable to send reply to %d: %d\n", who_e, s);
 }
-

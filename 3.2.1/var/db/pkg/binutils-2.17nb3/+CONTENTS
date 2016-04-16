@@ -1,0 +1,289 @@
+@cwd /usr/pkg
+@pkgcfl avr-binutils<2.13.2.1nb1
+@name binutils-2.17nb3
+@blddep pkg_install-info-4.5nb3
+@pkgdep pkg_install-info-[0-9]*
+@blddep digest-20080510
+@blddep gzip-1.3.12nb3
+@blddep gtexinfo-4.13nb1
+@blddep perl-5.14.2
+@comment $NetBSD: PLIST.common,v 1.14 2008/02/28 19:06:34 tnn Exp $
+i386-pc-minix/bin/ar
+@comment MD5:d2eaf29e485c2d557e5acc79433ce221
+i386-pc-minix/bin/as
+@comment MD5:d278ed81c37903f16413deedaf3f9af1
+i386-pc-minix/bin/ld
+@comment MD5:d6192e55abfc927397a14ed7f2d40fc1
+i386-pc-minix/bin/nm
+@comment MD5:16cacc85852f90f8e241f70f0d9d9dac
+i386-pc-minix/bin/objdump
+@comment MD5:eea6a2b30195402fa5eb5c39d83f825f
+i386-pc-minix/bin/ranlib
+@comment MD5:c8c6ea3e6dde05af977edc90ca510c74
+i386-pc-minix/bin/strip
+@comment MD5:8018a3db2d29ea7bd831f0841b7ca257
+bin/addr2line
+@comment MD5:c93b8621a04fa524bd95290c58c90ceb
+bin/ar
+@comment MD5:d2eaf29e485c2d557e5acc79433ce221
+bin/as
+@comment MD5:d278ed81c37903f16413deedaf3f9af1
+bin/c++filt
+@comment MD5:64134331247e7f05c782e34c6117495f
+@comment bin/gprof
+bin/ld
+@comment MD5:d6192e55abfc927397a14ed7f2d40fc1
+bin/nm
+@comment MD5:16cacc85852f90f8e241f70f0d9d9dac
+bin/objcopy
+@comment MD5:749ee3580a74b468e4dfb49da2819cd8
+bin/objdump
+@comment MD5:eea6a2b30195402fa5eb5c39d83f825f
+bin/ranlib
+@comment MD5:c8c6ea3e6dde05af977edc90ca510c74
+bin/readelf
+@comment MD5:1f31c3077b0d7991ecbb9530984550ed
+bin/size
+@comment MD5:52dc72572f8df4353f19234ddac3185a
+bin/strings
+@comment MD5:677908e45b0e0a155e0ddd8615208b33
+bin/strip
+@comment MD5:8018a3db2d29ea7bd831f0841b7ca257
+include/ansidecl.h
+@comment MD5:e1083a1fae50362cefde0b1f620e9401
+include/bfd.h
+@comment MD5:b9429a65bca4eaae7900de58d7eaa22b
+include/bfdlink.h
+@comment MD5:7b9d154d48cbd37f011ed584093866ab
+include/dis-asm.h
+@comment MD5:d17e985688f8674afac7f5f69eb6599e
+include/symcat.h
+@comment MD5:c665cdb0d6c3bfb5d86841b168a2d1f9
+info/as.info
+@comment MD5:03369cd4b161870beb4d1d1a1a898ee5
+info/bfd.info
+@comment MD5:19176aa35c9a7f931614e55c37312fb8
+info/binutils.info
+@comment MD5:2564c117b9d17ed0e39b4824c64ed26b
+@comment info/gprof.info
+info/ld.info
+@comment MD5:b7df7c99eb90318c930c0e073fd07fa0
+lib/libbfd.la
+@comment MD5:656f7998f1eeeaa0663c3f6627830754
+lib/libbfd.a
+@comment MD5:566e3faab64a40c281c0c8fce6eebc12
+lib/libiberty.a
+@comment MD5:daa1660cbe8ebbd1925b59ccfe107fe8
+lib/libopcodes.la
+@comment MD5:a1f7315cd4bf66c2637eb9a4bc9350c6
+lib/libopcodes.a
+@comment MD5:6ede532fd0bf66122397f79c13db8744
+man/man1/addr2line.1
+@comment MD5:7735234acee3c770a46f278f31222755
+man/man1/ar.1
+@comment MD5:58bf9df65d4cf62830db3d8bd1203e28
+man/man1/as.1
+@comment MD5:f101f510956e2244bdb9ea69062baa73
+man/man1/c++filt.1
+@comment MD5:f4af4021fa121a9bc8ffc83fa557a6b1
+man/man1/dlltool.1
+@comment MD5:11fcdfc504fc118091b952f366ebb94c
+@comment man/man1/gprof.1
+man/man1/ld.1
+@comment MD5:ebd59a0b2bc809e93b173cb5dc99727b
+man/man1/nlmconv.1
+@comment MD5:4695ae1876b50a05fc7b4df9a152d17e
+man/man1/nm.1
+@comment MD5:e4fb05c68bcb8f3a2bd0b03b8e86a1a4
+man/man1/objcopy.1
+@comment MD5:36ff6cf6b0e3c0eeb19d6939919f14cd
+man/man1/objdump.1
+@comment MD5:c8440691b3e87ae15c644caa3bd08abc
+man/man1/ranlib.1
+@comment MD5:6e7b29b3348695f5d266c104039b8810
+man/man1/readelf.1
+@comment MD5:9fafe1a61478c82a82deb5af475d2f28
+man/man1/size.1
+@comment MD5:11b48917332b1889559693c74d35c205
+man/man1/strings.1
+@comment MD5:51af4a88751b19db59cba1ad1249d3b9
+man/man1/strip.1
+@comment MD5:a3593b8b7d34a60b72cb577173904365
+man/man1/windres.1
+@comment MD5:a5ef024e713d351f220d42a5fde2edab
+share/locale/da/LC_MESSAGES/bfd.mo
+@comment MD5:35a4480c592584b75a828838b20938a0
+share/locale/da/LC_MESSAGES/binutils.mo
+@comment MD5:60d5ae172058ca61166b4b6196ef82d7
+@comment share/locale/da/LC_MESSAGES/gprof.mo
+share/locale/da/LC_MESSAGES/ld.mo
+@comment MD5:7167448a4744a6599432ce4939e897bc
+share/locale/da/LC_MESSAGES/opcodes.mo
+@comment MD5:bb1c7be180e128c17ef71889d8e21d40
+@comment share/locale/de/LC_MESSAGES/gprof.mo
+share/locale/de/LC_MESSAGES/opcodes.mo
+@comment MD5:6881ecf19052fe945c5dfefc588207ab
+share/locale/es/LC_MESSAGES/bfd.mo
+@comment MD5:defb910cbeaa9e6633623438f38602a1
+share/locale/es/LC_MESSAGES/binutils.mo
+@comment MD5:f8cc54e74fbefa64ff13e1aac6ac2a7b
+share/locale/es/LC_MESSAGES/gas.mo
+@comment MD5:fa7de4d2fa1bf4dad06b344613ff1d64
+@comment share/locale/es/LC_MESSAGES/gprof.mo
+share/locale/es/LC_MESSAGES/ld.mo
+@comment MD5:861fb025ca8bc990baac930c35d3b192
+share/locale/es/LC_MESSAGES/opcodes.mo
+@comment MD5:7917f57cd1dce76606f211a0e970cfe7
+share/locale/fi/LC_MESSAGES/binutils.mo
+@comment MD5:ad82966809887e61b5c2fddeef3f414b
+share/locale/fi/LC_MESSAGES/opcodes.mo
+@comment MD5:b18d835f717e999a6a6d2b3dec3af835
+share/locale/fr/LC_MESSAGES/bfd.mo
+@comment MD5:9632ec7bbacad153aead7446fa0ab100
+share/locale/fr/LC_MESSAGES/binutils.mo
+@comment MD5:e0a549cb3052bac8f0d66758e366534f
+share/locale/fr/LC_MESSAGES/gas.mo
+@comment MD5:6a1b5386205385f77c4d664a9e8ecc16
+@comment share/locale/fr/LC_MESSAGES/gprof.mo
+share/locale/fr/LC_MESSAGES/ld.mo
+@comment MD5:d99327e3cc57560584c8ea81347fbe4b
+share/locale/fr/LC_MESSAGES/opcodes.mo
+@comment MD5:68cc370681fab9c95313f4ec78b4acc6
+@comment share/locale/ga/LC_MESSAGES/gprof.mo
+share/locale/ga/LC_MESSAGES/opcodes.mo
+@comment MD5:a05c4ae1c9e1ed132d00b44fc7b5c08f
+@comment share/locale/id/LC_MESSAGES/gprof.mo
+share/locale/id/LC_MESSAGES/opcodes.mo
+@comment MD5:b6c960d660ea6c9ef46f51a98cd15d76
+share/locale/ja/LC_MESSAGES/bfd.mo
+@comment MD5:95a86001b071eb80f4745adba10a289a
+share/locale/ja/LC_MESSAGES/binutils.mo
+@comment MD5:26b4f4f699d635fad6df05148dd68cb5
+share/locale/nl/LC_MESSAGES/opcodes.mo
+@comment MD5:e7e3a6ebe087441e79762fec9e20d19c
+@comment share/locale/pt_BR/LC_MESSAGES/gprof.mo
+share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+@comment MD5:1b79e075af1926ef6736fa317f054702
+share/locale/ro/LC_MESSAGES/bfd.mo
+@comment MD5:844c1ea598f9bcc47870ecf122b15e7d
+share/locale/ro/LC_MESSAGES/binutils.mo
+@comment MD5:7d9d0cc039b5e637e9203e0c1fe8a282
+share/locale/ro/LC_MESSAGES/opcodes.mo
+@comment MD5:e216f1583ca03a04f8849dfb96b59c3f
+share/locale/ru/LC_MESSAGES/binutils.mo
+@comment MD5:94a5c2444cbc16d9036af22b4ac5fd8f
+share/locale/rw/LC_MESSAGES/bfd.mo
+@comment MD5:e15c998ffa3537ef5f5c5ed225c18279
+share/locale/rw/LC_MESSAGES/binutils.mo
+@comment MD5:574d299b75e61be9de2b50beda9a138a
+share/locale/rw/LC_MESSAGES/gas.mo
+@comment MD5:84abb7448e55371f1d2c6660c2ab2ee3
+@comment share/locale/rw/LC_MESSAGES/gprof.mo
+share/locale/sv/LC_MESSAGES/bfd.mo
+@comment MD5:b04862da8728ddf3c4c8a45b18ee35f7
+share/locale/sv/LC_MESSAGES/binutils.mo
+@comment MD5:997254756ea84e1f5f40510d7b1d5a18
+@comment share/locale/sv/LC_MESSAGES/gprof.mo
+share/locale/sv/LC_MESSAGES/ld.mo
+@comment MD5:1458a539ab520ec9ecde71e95b38d325
+share/locale/sv/LC_MESSAGES/opcodes.mo
+@comment MD5:d7c42d78dd00ae4c8b71fecb736fd17c
+share/locale/tr/LC_MESSAGES/bfd.mo
+@comment MD5:495dc4f4a2e82ea81d7226370e07294f
+share/locale/tr/LC_MESSAGES/binutils.mo
+@comment MD5:895352681d4358a82bacec4e25a00e70
+share/locale/tr/LC_MESSAGES/gas.mo
+@comment MD5:cd950a0d08e9bfb823c40d2abefd2921
+@comment share/locale/tr/LC_MESSAGES/gprof.mo
+share/locale/tr/LC_MESSAGES/ld.mo
+@comment MD5:3d1ef990f300fb1817b57310a731db3e
+share/locale/tr/LC_MESSAGES/opcodes.mo
+@comment MD5:179cd41f0e8af51dd577fd5d7ab36c79
+share/locale/vi/LC_MESSAGES/bfd.mo
+@comment MD5:b0376107e4977969c09c6ee65d4a3048
+share/locale/vi/LC_MESSAGES/binutils.mo
+@comment MD5:f13ecc383d919e5592ee07422c44f402
+share/locale/vi/LC_MESSAGES/ld.mo
+@comment MD5:b1b59232ea80c2757551f7b47bf096c8
+share/locale/vi/LC_MESSAGES/opcodes.mo
+@comment MD5:87a8569f2970f9bfb431b3ac757bd460
+share/locale/zh_CN/LC_MESSAGES/bfd.mo
+@comment MD5:ee7366f8bf4f4bca0d82e3143893174d
+share/locale/zh_CN/LC_MESSAGES/binutils.mo
+@comment MD5:4c57a9a18cfc80f61d50b29eb703d561
+share/locale/zh_CN/LC_MESSAGES/ld.mo
+@comment MD5:1ff30271c0644d48371590d151324221
+share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+@comment MD5:35aff368921bb92ebaee91c25b2f6af7
+@comment share/locale/vi/LC_MESSAGES/gprof.mo
+share/locale/zh_TW/LC_MESSAGES/binutils.mo
+@comment MD5:d66dc645567221704d9a96af2951ec0f
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xw
+@comment MD5:cf53907ade739f825c9c928285861c36
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xu
+@comment MD5:30f250d8e6f3f2bed7a4e03c2ca16414
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xsw
+@comment MD5:ae451eb44a2ef7517314cb5dc4245490
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xsc
+@comment MD5:e65c2b4f6b5ced5d0953c6adcfbc35b2
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xs
+@comment MD5:5298558759cb0cee068c056fb2b97cc0
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xr
+@comment MD5:9106d346e71baa18d57aacd6803aee09
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xn
+@comment MD5:204a2708c08faaca4b66ad08874cd3a6
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xdw
+@comment MD5:dd6ebdf902a12a40d07779ea0d680e34
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xdc
+@comment MD5:ee11ebaea84c9d696d7fcba3fbe2c2c1
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xd
+@comment MD5:ea7388a4f7afbdb80cff617a7492ea54
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xc
+@comment MD5:f71aa5e78fb6c7d2102c4fad01e9b8a9
+i386-pc-minix/lib/ldscripts/elf_i386_minix.xbn
+@comment MD5:6c022ddeaa03273ddb1c9bff929791bf
+i386-pc-minix/lib/ldscripts/elf_i386_minix.x
+@comment MD5:11dd6cd35703bfae9de9fa0140371acb
+i386-pc-minix/lib/ldscripts/elf_i386.xw
+@comment MD5:902a60a19cbd2620f813aeaf8df1bf4f
+i386-pc-minix/lib/ldscripts/elf_i386.xu
+@comment MD5:1d6bd95a35da6a98bd26bea57e22cb74
+i386-pc-minix/lib/ldscripts/elf_i386.xsw
+@comment MD5:89188d5bef2d51865ce24484392dc727
+i386-pc-minix/lib/ldscripts/elf_i386.xsc
+@comment MD5:81ecea13dca5934ebbc6256254694806
+i386-pc-minix/lib/ldscripts/elf_i386.xs
+@comment MD5:25035502c8212d1fecfeda11cb376610
+i386-pc-minix/lib/ldscripts/elf_i386.xr
+@comment MD5:8d21c1ea2fade7f671ac5041f97465a1
+i386-pc-minix/lib/ldscripts/elf_i386.xn
+@comment MD5:5459149a8bd0cfe03dfda5382c91549b
+i386-pc-minix/lib/ldscripts/elf_i386.xdw
+@comment MD5:e7f3ba2410cc702c0afd8932cae00127
+i386-pc-minix/lib/ldscripts/elf_i386.xdc
+@comment MD5:db3564941f9b700beb140721940cfc34
+i386-pc-minix/lib/ldscripts/elf_i386.xd
+@comment MD5:31212810f72a2d5b492eff0a6003d6c6
+i386-pc-minix/lib/ldscripts/elf_i386.xc
+@comment MD5:a8d1794b48d40910e52e9ad20661a083
+i386-pc-minix/lib/ldscripts/elf_i386.xbn
+@comment MD5:5fb6e0d5d411a9a460727eee0f3836a8
+i386-pc-minix/lib/ldscripts/elf_i386.x
+@comment MD5:c9e6c6390aad9867783834c28b777f6d
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

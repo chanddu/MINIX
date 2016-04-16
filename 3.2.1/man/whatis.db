@@ -1,0 +1,925 @@
+GElf (3) - class-independent API for ELF manipulation
+MAKEDEV, DESCRIBE (8) - make/describe device files
+RMD160Init, RMD160Update, RMD160Final, RMD160Transform, RMD160End, RMD160File, RMD160Data (3) - calculate the ``RIPEMD-160'' message digest
+SHA1Init, SHA1Update, SHA1Final, SHA1Transform, SHA1End, SHA1File, SHA1Data (3) - calculate the NIST Secure Hash Algorithm
+SHA256_Init, SHA256_Update, SHA256_Pad, SHA256_Final, SHA256_Transform, SHA256_End, SHA256_File, SHA256_FileChunk, SHA256_Data (3) - calculate the NIST Secure Hash Standard (version 2)
+TZ (5) - Time zone environment variable
+__builtin_object_size (3) - return the size of the given object
+_lwp_makecontext (3) - create a new initial light-weight process execution context
+a64l, l64a, l64a_r (3) - convert between a long integer and a base-64 ASCII string
+abort (3) - cause abnormal program termination
+abs, labs, llabs, imaxabs (3) - functions for integer absolute value
+accept (2) - accepts incoming connections on a socket
+access (2) - determine accessibility of file
+acksize (1) - print text, data, and bss size of a program
+acos, acosf (3) - arc cosine function
+acosh, acoshf (3) - inverse hyperbolic cosine function
+add_route, del_route (8) - configure IP routing.
+alarm (2) - schedule signal after specified time
+alarm (3) - set signal timer alarm
+alloca (3) - memory allocator
+apropos (1) - locate commands by keyword lookup
+arc4random, arc4random_buf, arc4random_uniform, arc4random_stir, arc4random_addrandom (3) - arc4 random number generator
+archive_clear_error, archive_compression, archive_compression_name, archive_copy_error, archive_errno, archive_error_string, archive_file_count, archive_format, archive_format_name, archive_set_error (3) - libarchive utility functions
+archive_entry_acl_add_entry, archive_entry_acl_add_entry_w, archive_entry_acl_clear, archive_entry_acl_count, archive_entry_acl_next, archive_entry_acl_next_w, archive_entry_acl_reset, archive_entry_acl_text_w, archive_entry_atime, archive_entry_atime_nsec, archive_entry_clear, archive_entry_clone, archive_entry_copy_fflags_text, archive_entry_copy_fflags_text_w, archive_entry_copy_gname, archive_entry_copy_gname_w, archive_entry_copy_hardlink, archive_entry_copy_hardlink_w, archive_entry_copy_link, archive_entry_copy_link_w, archive_entry_copy_pathname_w, archive_entry_copy_sourcepath, archive_entry_copy_stat, archive_entry_copy_symlink, archive_entry_copy_symlink_w, archive_entry_copy_uname, archive_entry_copy_uname_w, archive_entry_dev, archive_entry_devmajor, archive_entry_devminor, archive_entry_filetype, archive_entry_fflags, archive_entry_fflags_text, archive_entry_free, archive_entry_gid, archive_entry_gname, archive_entry_hardlink, archive_entry_ino, archive_entry_mode, archive_entry_mtime, archive_entry_mtime_nsec, archive_entry_nlink, archive_entry_new, archive_entry_pathname, archive_entry_pathname_w, archive_entry_rdev, archive_entry_rdevmajor, archive_entry_rdevminor, archive_entry_set_atime, archive_entry_set_ctime, archive_entry_set_dev, archive_entry_set_devmajor, archive_entry_set_devminor, archive_entry_set_filetype, archive_entry_set_fflags, archive_entry_set_gid, archive_entry_set_gname, archive_entry_set_hardlink, archive_entry_set_link, archive_entry_set_mode, archive_entry_set_mtime, archive_entry_set_pathname, archive_entry_set_rdevmajor, archive_entry_set_rdevminor, archive_entry_set_size, archive_entry_set_symlink, archive_entry_set_uid, archive_entry_set_uname, archive_entry_size, archive_entry_sourcepath, archive_entry_stat, archive_entry_symlink, archive_entry_uid, archive_entry_uname (3) - functions for manipulating archive entry descriptions
+archive_read_disk_new, archive_read_disk_set_symlink_logical, archive_read_disk_set_symlink_physical, archive_read_disk_set_symlink_hybrid, archive_read_disk_entry_from_file, archive_read_disk_gname, archive_read_disk_uname, archive_read_disk_set_uname_lookup, archive_read_disk_set_gname_lookup, archive_read_disk_set_standard_lookup, archive_read_close, archive_read_finish (3) - functions for reading objects from disk
+archive_read_new, archive_read_set_filter_options, archive_read_set_format_options, archive_read_set_options, archive_read_support_compression_all, archive_read_support_compression_bzip2, archive_read_support_compression_compress, archive_read_support_compression_gzip, archive_read_support_compression_lzma, archive_read_support_compression_none, archive_read_support_compression_xz, archive_read_support_compression_program, archive_read_support_compression_program_signature, archive_read_support_format_all, archive_read_support_format_ar, archive_read_support_format_cpio, archive_read_support_format_empty, archive_read_support_format_iso9660, archive_read_support_format_mtree, archive_read_support_format_raw, archive_read_support_format_tar, archive_read_support_format_zip, archive_read_open, archive_read_open2, archive_read_open_fd, archive_read_open_FILE, archive_read_open_filename, archive_read_open_memory, archive_read_next_header, archive_read_next_header2, archive_read_data, archive_read_data_block, archive_read_data_skip, archive_read_data_into_buffer, archive_read_data_into_fd, archive_read_extract, archive_read_extract2, archive_read_extract_set_progress_callback, archive_read_close, archive_read_finish (3) - functions for reading streaming archives
+archive_write_disk_new, archive_write_disk_set_options, archive_write_disk_set_skip_file, archive_write_disk_set_group_lookup, archive_write_disk_set_standard_lookup, archive_write_disk_set_user_lookup, archive_write_header, archive_write_data, archive_write_finish_entry, archive_write_close, archive_write_finish (3) - functions for creating objects on disk
+archive_write_new, archive_write_set_format_cpio, archive_write_set_format_pax, archive_write_set_format_pax_restricted, archive_write_set_format_shar, archive_write_set_format_shar_binary, archive_write_set_format_ustar, archive_write_get_bytes_per_block, archive_write_set_bytes_per_block, archive_write_set_bytes_in_last_block, archive_write_set_compression_bzip2, archive_write_set_compression_compress, archive_write_set_compression_gzip, archive_write_set_compression_none, archive_write_set_compression_program, archive_write_set_compressor_options, archive_write_set_format_options, archive_write_set_options, archive_write_open, archive_write_open_fd, archive_write_open_FILE, archive_write_open_filename, archive_write_open_memory, archive_write_header, archive_write_data, archive_write_finish_entry, archive_write_close, archive_write_finish (3) - functions for creating archives
+ascii (7) - the ASCII character set.
+asctime, asctime_r, ctime, ctime_r, ctime_rz, difftime, gmtime, gmtime_r, localtime, localtime_r, localtime_rz, mktime, mktime_z, tzalloc, tzgetname, tzfree, (3) - convert date and time to ASCII
+ash, sh, bigsh, ., break, case, cd, command, continue, eval, exec, exit, export, for, getopts, hash, if, jobs, local, read, readonly, return, set, setvar, shift, trap, umask, unset, wait, while (1) - a shell
+asin, asinf (3) - arc sine function
+asinh, asinhf (3) - inverse hyperbolic sine function
+at (1) - execute commands at a later time
+atan, atanf (3) - arc tangent function of one variable
+atan2, atan2f (3) - arc tangent function of two variables
+atanh, atanhf (3) - inverse hyperbolic tangent function
+atexit (3) - register a function to be called on exit
+atomic_add, atomic_add_32, atomic_add_int, atomic_add_long, atomic_add_ptr, atomic_add_64, atomic_add_32_nv, atomic_add_int_nv, atomic_add_long_nv, atomic_add_ptr_nv, atomic_add_64_nv (3) - atomic add operations
+atomic_cas, atomic_cas_32, atomic_cas_uint, atomic_cas_ulong, atomic_cas_ptr, atomic_cas_64, atomic_cas_32_ni, atomic_cas_uint_ni, atomic_cas_ulong_ni, atomic_cas_ptr_ni, atomic_cas_64_ni (3) - atomic compare-and-swap operations
+atomic_dec, atomic_dec_32, atomic_dec_uint, atomic_dec_ulong, atomic_dec_ptr, atomic_dec_64, atomic_dec_32_nv, atomic_dec_uint_nv, atomic_dec_ulong_nv, atomic_dec_ptr_nv, atomic_dec_64_nv (3) - atomic decrement operations
+atomic_inc, atomic_inc_32, atomic_inc_uint, atomic_inc_ulong, atomic_inc_ptr, atomic_inc_64, atomic_inc_32_nv, atomic_inc_uint_nv, atomic_inc_ulong_nv, atomic_inc_ptr_nv, atomic_inc_64_nv (3) - atomic increment operations
+atomic_ops (3) - atomic memory operations
+atomic_swap, atomic_swap_32, atomic_swap_uint, atomic_swap_ulong, atomic_swap_ptr, atomic_swap_64 (3) - atomic swap operations
+awk (1) - pattern-directed scanning and processing language
+backup (8) - backup files
+banner (1) - print a banner
+basename (3) - return the last component of a pathname
+basename, dirname (1) - strip off file prefixes and suffixes
+bcmp (3) - compare byte string
+bcmp, bcopy, bzero, ffs, index, rindex, strcasecmp, strncasecmp (3) - string operations
+bcopy (3) - copy byte string
+bind (2) - binds an address to a socket
+bm_comp, bm_exec, bm_free (3) - Boyer-Moore string search
+boot (8) - system bootstrapping procedures
+boot.cfg (5) - configuration file for /boot
+brk, sbrk (2) - change data segment size
+bsearch (3) - binary search of a sorted table
+bsfilt, colcrt (1) - a colcrt-like backspace filter
+bswap16, bswap32, bswap64 (3) - byte-order swapping functions
+btowc (3) - convert a single byte character to a wide character
+btrace (8) - block-level tracing interface
+btree (3) - btree database access method
+bzero (3) - write zeroes to a byte string
+bzip2, bunzip2, bzcat, bzip2recover (1) - block-sorting file compressor
+cabs, cabsf (3P) - return a complex absolute value
+cacos, cacosf (3P) - complex arc cosine functions
+cacosh, cacoshf (3P) - complex arc hyperbolic cosine functions
+cal (1) - print a calendar
+carg, cargf (3P) - complex argument functions
+casin, casinf (3P) - complex arc sine functions
+casinh, casinhf (3P) - complex arc hyperbolic sine functions
+cat (1) - concatenate and print files
+catan, catanf (3P) - complex arc tangent functions
+catanh, catanhf (3P) - complex arc hyperbolic tangent functions
+catclose (3) - close message catalog
+catgets (3) - retrieve string from message catalog
+catopen (3) - open message catalog
+cbrt, cbrtf, sqrt, sqrtf (3) - cube root and square root functions
+ccos, ccosf (3P) - complex cosine functions
+ccosh, ccoshf (3P) - complex hyperbolic cosine functions
+cdb (5) - format of the constant database
+cdbr cdbr_open, cdbr_entries, cdbr_get, cdbr_find, cdbr_close, cdbr_write (3) - constant database access methods
+cdbw_open, cdbw_put, cdbw_put_data, cdbw_put_key, cdbw_stable_seeder, cdbw_output, cdbw_close (3) - create constant databases
+cdprobe (8) - guess where the Minix CD is
+ceil, ceilf (3) - round to smallest integral value greater than or equal to x
+cexp, cexpf (3P) - complex exponential functions
+cfgetispeed, cfsetispeed, cfgetospeed, cfsetospeed, cfsetspeed, cfmakeraw, tcgetattr, tcsetattr (3) - manipulating the termios structure
+cgetent, cgetset, cgetmatch, cgetcap, cgetnum, cgetstr, cgetustr, cgetfirst, cgetnext, cgetclose, cexpandtc (3) - capability database access routines
+chdir, fchdir (2) - change current working directory
+chgat, wchgat, mvchgat, mvwchgat (3) - curses on-screen attribute manipulation routines
+chgrp (1) - change group
+chmod (1) - change access mode for files
+chmod, fchmod (2) - change mode of file
+chown (8) - change owner
+chown, fchown (2) - change owner and group of a file
+chpass, chfn, chsh (1) - add or change user database information
+chroot (2) - change root directory
+chroot (8) - change root directory
+cimag, cimagf (3P) - complex imaginary functions
+cksum, md2, md4, md5, rmd160, sha1, sum (1) - display file checksums and block counts
+cleantmp (8) - clean out a tmp dir
+clearerr, feof, ferror, fileno (3) - check and reset stream status
+clock (3) - determine processor time used
+clog, clogf (3P) - complex natural logarithm functions
+close (2) - delete a descriptor
+closefrom (3) - delete many descriptors
+cmp (1) - compare two files
+comm (1) - print lines common to two sorted files
+compress, uncompress, zcat (1) - compress a file using modified Lempel-Ziv coding
+config (8) - configuring MINIX 3 tasks and servers
+configfile (5) - generic configuration file format
+confstr (3) - get string-valued configurable variables
+conj, conjf (3P) - complex conjugate functions
+connect (2) - connects a socket
+console, keyboard, log (4) - system console
+controller, disk, tape, at, bios, esdi, aha1540, ncr810, dosfile, fatfile (4) - controllers, disks and tapes
+copysign, copysignf, copysignl, finite, finitef, ilogb, ilogbf, nextafter, nextafterf, nextafterl, nexttoward, remainder, remainderf, scalbn, scalbnf (3) - functions for IEEE arithmetic
+cos, cosf (3) - cosine function
+cosh, coshf (3) - hyperbolic cosine function
+cp, mv, rm, ln, cpdir, clone (1) - copy, move, remove, link
+cpio (1) - copy file archives in and out
+cpio (5) - format of cpio archive files
+cpow, cpowf (3P) - complex power functions
+cproj, cprojf, cprojl (3P) - complex projection functions
+cpuset_create, cpuset_destroy, cpuset_zero, cpuset_set, cpuset_clr, cpuset_isset, cpuset_size (3) - dynamic CPU sets
+crc (1) - print the checksum of the file data
+creal, crealf (3P) - complex real functions
+creat (2) - create a new file
+creat (3) - create a new file
+cron (8) - clock daemon
+crontab (1) - User crontab manipulation
+crontab (5) - table of jobs to be performed by cron
+crypt, setkey, encrypt, des_setkey, des_cipher (3) - password encryption
+csin, csinf (3P) - complex sine functions
+csinh, csinhf (3P) - complex hyperbolic sine functions
+csqrt, csqrtf (3P) - complex square root functions
+ctags (1) - create a tags file
+ctan, ctanf (3P) - complex tangent functions
+ctanh, ctanhf (3P) - complex hyperbolic tangent functions
+ctermid (3) - generate terminal pathname
+curses_addch, addch, waddch, mvaddch, mvwaddch (3) - curses add characters to windows routines
+curses_addchstr, addchstr, waddchstr, addchnstr, waddchnstr, mvaddchstr, mvwaddchstr, mvaddchnstr, mvwaddchnstr (3) - curses add character strings to windows routines
+curses_addstr, addstr, waddstr, addnstr, waddnstr, mvaddstr, mvwaddstr, mvaddnstr, mvwaddnstr (3) - curses add character strings to windows routines
+curses_attributes, attron, attroff, attrset, color_set, getattrs, termattrs, wattron, wattroff, wattrset, wcolor_set, attr_on, attr_off, attr_set, attr_get, term_attrs, wattr_on, wattr_off, wattr_set, wattr_get (3) - curses general attribute manipulation routines
+curses_background, bkgd, bkgdset, getbkgd, wbkgd, wbkgdset (3) - curses attribute manipulation routines
+curses_border, border, box, wborder (3) - curses border drawing routines
+curses_clear, clear, wclear, clearok, clrtobot, clrtoeol, erase, werase, wclrtobot, wclrtoeol (3) - curses clear window routines
+curses_color, has_colors, can_change_color, start_color, init_pair, pair_content, COLOR_PAIR, PAIR_NUMBER, init_color, color_content, no_color_attributes (3) - curses color manipulation routines
+curses_cursor, getcury, getcurx, getyx, getbegy, getbegx, getbegyx, getmaxy, getmaxx, getmaxyx, getpary, getparx, getparyx, move, wmove, mvcur, wcursyncup (3) - curses cursor and window location and positioning routines
+curses_default_colors, assume_default_colors, use_default_colors (3) - curses default colors setting routines
+curses_delch, delch, wdelch (3) - curses delete characters routines
+curses_deleteln, deleteln, wdeleteln (3) - curses delete single line routines
+curses_echochar, echochar, wechochar, pechochar (3) - curses add characters and then refresh routines
+curses_fileio, getwin, putwin (3) - curses file input/output routines
+curses_inch, inch, winch, inchnstr, mvinchnstr, winchnstr, mvwinchnstr, inchstr, mvinchstr, winchstr, mvwinchstr, innstr, winnstr, mvinnstr, mvwinnstr, instr, winstr mvinstr, mvwinstr (3) - curses read screen contents routines
+curses_input, getch, wgetch, mvgetch, mvwgetch, define_key, keyok, getnstr, wgetnstr, mvgetnstr, mvwgetnstr, getstr, wgetstr, mvgetstr, mvwgetstr, keypad, notimeout, timeout, wtimeout, nodelay, ungetch (3) - curses input stream routines
+curses_insdelln, insdelln, winsdelln (3) - curses insert or delete lines routines
+curses_insert, insch, winsch, mvinsch, mvwinsch (3) - curses insert characters routines
+curses_insertln, insertln, winsertln (3) - curses insert single line routines
+curses_keyname, keyname (3) - curses report key name routine
+curses_line, hline, whline, vline, wvline, mvhline, mvwhline, mvvline, mvwvline (3) - curses draw lines on windows routines
+curses_pad, newpad, subpad, prefresh, pnoutrefresh (3) - curses pad routines
+curses_print, printw, wprintw, mvprintw, mvwprintw, unctrl (3) - curses print formatted strings on windows routines
+curses_refresh, refresh, wrefresh, wnoutrefresh, doupdate, leaveok, flushok (3) - curses terminal update routines
+curses_scanw, scanw, wscanw, mvscanw, mvwscanw (3) - curses read formatted data from screen routines
+curses_screen, newterm, set_term, delscreen, endwin, initscr, isendwin, resizeterm, setterm (3) - curses terminal and screen routines
+curses_scroll, scrl, wscrl scroll, scrollok, setscrreg, wsetscrreg (3) - curses window scrolling routines
+curses_standout, standout, standend, wstandout, wstandend (3) - curses standout attribute manipulation routines
+curses_termcap, fullname (3) - curses termcap querying routines
+curses_touch, touchline, touchoverlap, touchwin, untouchwin, wtouchln, is_linetouched, is_wintouched, redrawwin, wredrawln, wsyncup, wsyncdown (3) - curses window modification routines
+curses_tty, beep, flash, curs_set, def_prog_mode, reset_prog_mode, def_shell_mode, reset_shell_mode, echo, noecho, delay_output, erasechar, flushinp, gettmode, halfdelay, has_ic, has_il, idcok, idlok, intrflush, noqiflush, qiflush, killchar, meta, napms, nl, nonl, cbreak, nocbreak, raw, noraw, savetty, resetty (3) - curses terminal manipulation routines
+curses_underscore, underscore, underend, wunderscore, wunderend (3) - curses underscore attribute manipulation routines
+curses_window, copywin, dupwin, delwin, derwin, mvwin, mvderwin, newwin, overlay, overwrite, subwin, wresize (3) - curses window routines
+cut (1) - select portions of each line of a file
+daemon (3) - run in the background
+date (1) - display or set date and time
+dbm_clearerr, dbm_close, dbm_delete, dbm_dirfno, dbm_error, dbm_fetch, dbm_firstkey, dbm_nextkey, dbm_open, dbm_store, ndbm (3) - database functions
+dbopen, db (3) - database access methods
+dd (1) - convert and copy a file
+dehumanize_number, humanize_number (3) - format a number into a human readable form and vice versa
+dev (4) - device files in /dev
+devname (3) - get device name
+df (1) - report on free disk space
+dhcp.conf (5) - dynamic host configuration protocol configuration
+dhcpd (8) - dynamic host configuration protocol daemon
+dhrystone (1) - integer benchmark
+diff (1) - differential file and directory comparator
+dir (5) - directory layout
+dirname (3) - report the parent directory name of a file pathname
+diskctl (8) - control disk drive
+div, ldiv, lldiv, imaxdiv (3) - quotient and remainder from division
+dosdir (1) - list an MS-DOS directory [IBM]
+dosread (1) - read a file from an MS-DOS diskette [IBM]
+doswrite (1) - write a file onto an MS-DOS diskette [IBM]
+drand48, erand48, lrand48, nrand48, mrand48, jrand48, srand48, seed48, lcong48 (3) - pseudo-random number generators and initialization routines
+du (1) - display disk usage statistics
+dumpcore (1) - generate core file of running process
+dup, dup2 (2) - duplicate a descriptor
+echo (1) - write arguments to the standard output
+ed (1) - text editor
+editline, el_init, el_end, el_reset, el_gets, el_wgets, el_getc, el_wgetc, el_push, el_wpush, el_parse, el_wparse, el_set, el_wset, el_get, el_wget, el_source, el_resize, el_line, el_wline, el_insertstr, el_winsertstr, el_deletestr, el_wdeletestr, history_init, history_winit, history_end, history_wend, history, history_w, tok_init, tok_winit, tok_end, tok_wend, tok_reset, tok_wreset, tok_line, tok_wline, tok_str tok_wstr (3) - line editor, history and tokenization functions
+editrc (5) - configuration file for editline library
+eject (1) - eject removable media
+elf (3) - API for manipulating ELF objects
+elf32_checksum, elf64_checksum, gelf_checksum (3) - return the checksum of an ELF object
+elf32_getehdr, elf64_getehdr, gelf_getehdr (3) - retrieve the object file header
+elf32_getphdr, elf64_getphdr, gelf_getphdr (3) - retrieve an ELF program header table
+elf32_getshdr, elf64_getshdr, gelf_getshdr (3) - retrieve the class-dependent section header
+elf32_newehdr, elf64_newehdr, gelf_newehdr (3) - retrieve or allocate the object file header
+elf32_newphdr, elf64_newphdr, gelf_newphdr (3) - allocate an ELF program header table
+elf32_xlate, elf64_xlate, gelf_xlate (3) - translate data between files and memory
+elf_begin (3) - open an ELF file or ar(1) archive
+elf_cntl (3) - control an elf file descriptor
+elf_end (3) - release an ELF descriptor
+elf_errmsg, elf_errno (3) - ELF library error message handling
+elf_fill (3) - set fill byte for inter-section padding
+elf_flagarhdr, elf_flagdata, elf_flagehdr, elf_flagelf, elf_flagphdr, elf_flagscn, elf_flagshdr (3) - manipulate flags associated with ELF(3) data structures
+elf_getarhdr (3) - retrieve ar(1) header for an archive member
+elf_getarsym (3) - retrieve the symbol table of an archive
+elf_getbase (3) - get the base offset for an object file
+elf_getdata, elf_newdata, elf_rawdata (3) - iterate through or allocate section data
+elf_getident (3) - return the initial bytes of a file
+elf_getphdrnum (3) - return the number of program headers in an ELF file
+elf_getphnum (3) - return the number of program headers in an ELF file
+elf_getscn, elf_ndxscn, elf_newscn, elf_nextscn (3) - get/allocate section information for an ELF object
+elf_getshdrnum (3) - return the number of sections in an ELF file
+elf_getshdrstrndx (3) - retrieve the index of the section name string table
+elf_getshnum (3) - return the number of sections in an ELF file
+elf_getshstrndx, elf_setshstrndx (3) - retrieve/update the index of the section name string table
+elf_hash (3) - compute a hash value for a string
+elf_kind (3) - determine ELF file type
+elf_memory (3) - process an ELF or ar(1) archive mapped into memory
+elf_next (3) - provide sequential access to the next archive member
+elf_rand (3) - provide sequential access to the next archive member
+elf_rawfile (3) - return uninterpreted contents of an ELF file
+elf_strptr (3) - retrieve a string pointer in a string table
+elf_update (3) - update an ELF descriptor
+elf_version (3) - retrieve or set ELF library operating version
+endutxent, getutxent, getutxid, getutxline, pututxline, setutxent (3) - user accounting database functions
+env (1) - set environment for command
+environ (7) - user environment
+erf, erff, erfc, erfcf (3) - error function operators
+err, verr, errx, verrx, warn, vwarn, warnx, vwarnx (3) - formatted error messages
+esetfunc, easprintf, efopen, emalloc, ecalloc, erealloc, estrdup, estrndup, estrlcat, estrlcpy, evasprintf (3) - error-checked utility functions
+ether_ntoa, ether_aton, ether_ntohost, ether_hostton, ether_line, (3) - get ethers entry
+ethers (5) - ethernet address to hostname database
+ex, vi, view (1) - text editors
+execl, execlp, execle, exect, execv, execvp (3) - execute a file
+execve (2) - execute a file
+exit (3) - perform normal program termination
+exit, _exit (2) - terminate a process
+exp, expf, exp2, exp2f, expm1, expm1f, log, logf, log2, log2f, log10, log10f, log1p, log1pf, pow, powf (3) - exponential, logarithm, power functions
+expand (1) - convert tabs to spaces
+expr (1) - evaluate expression
+extattr_copy_file, extattr_copy_fd, extattr_copy_link, cpxattr, fcpxattr, lcpxattr (3) - copy extended attributes from a file to another one
+extattr_namespace_to_string, extattr_string_to_namespace (3) - convert an extended attribute namespace identifier to a string and vice versa
+fabs, fabsf (3) - floating-point absolute value function
+factor (1) - factor an integer less than 2**31
+fbdctl (8) - Faulty Block Device rule management interface
+fclose (3) - close a stream
+fcntl (2) - miscellaneous file descriptor control functions
+fd (4) - floppy disk
+fdim, fdimf, fdiml (3) - positive difference functions
+fdisk (8) - partition a hard disk [IBM]
+fdopendir, opendir, readdir, readdir_r, telldir, seekdir, rewinddir, closedir, dirfd (3) - directory operations
+feclearexcept, fegetexceptflag, feraiseexcept, fesetexceptflag, fetestexcept (3) - floating-point exception flag manipulation
+feclearexcept, fegetexceptflag, feraiseexcept, fesetexceptflag, fetestexcept, fegetround, fesetround, fegetenv, feholdexcept, fesetenv, feupdateenv, feenableexcept, fedisableexcept, fegetexcept (3) - floating-point environment control
+feenableexcept, fedisableexcept, fegetexcept (3) - floating-point exception masking
+fegetenv, feholdexcept, fesetenv, feupdateenv (3) - floating-point environment save and restore
+fegetround, fesetround (3) - floating-point rounding control
+fetch (1) - retrieve a file by Uniform Resource Locator
+fflush, fpurge (3) - flush a stream
+ffs (3) - find first bit set in a bit string
+fgetc, getc, getchar, getc_unlocked, getchar_unlocked, getw (3) - get next character or word from input stream
+fgetln (3) - get a line from a stream
+fgetpos, fseek, fseeko, fsetpos, ftell, ftello, rewind (3) - reposition a stream
+fgets, gets (3) - get a line from a stream
+fgetwc, getwc, getwchar, (3) - get next wide character from input stream
+fgetwln (3) - get a line of wide characters from a stream
+fgetws (3) - get a line of wide characters from a stream
+file (1) - determine file type
+find (1) - walk a file hierarchy
+finger (1) - user information lookup program
+fingerd, in.fingerd (8) - remote user information server
+flex, lex (1) - fast lexical analyzer generator
+flexdoc (1) - fast lexical analyzer generator
+flockfile, ftrylockfile, funlockfile (3) - stdio stream locking functions
+floor, floorf (3) - round to largest integral value not greater than x
+fmax, fmaxf, fmaxl, fmin, fminf, fminl (3) - floating-point maximum and minimum functions
+fmemopen (3) - open a stream that points to the given buffer
+fmod, fmodf (3) - floating-point remainder function
+fmtcheck (3) - sanitizes user-supplied printf(3)-style format string
+fmtmsg (3) - format and display a message
+fnmatch (3) - match filename or pathname using shell glob rules
+fold (1) - fold long lines
+fopen, fdopen, freopen (3) - stream open functions
+fork (2) - create a new process
+format (1) - format a PC floppy diskette
+fortune (1) - print a fortune
+fparseln (3) - return the next logical line from a stream
+fpclassify (3) - classify real floating type
+fpgetmask, fpgetprec, fpgetround, fpgetsticky, fpsetmask, fpsetprec, fpsetround, fpsetsticky (3) - IEEE FP mode control
+fputc, putc, putchar, putc_unlocked, putchar_unlocked, putw (3) - output a character or word to a stream
+fputs, puts (3) - output a line to a stream
+fputwc, putwc, putwchar, (3) - output a wide character to a stream
+fputws (3) - output a line of wide characters to a stream
+fread, fwrite (3) - binary stream input/output
+frexp (3) - convert floating-point number to fractional and integral components
+fsck (1) - perform file system consistency check
+fsck (8) - file system consistency check and interactive repair
+fsck_ext2fs (8) - ext2 File System consistency check and interactive repair
+fstab, mtab (5) - list of file systems to mount, mounted file system table.
+ftok (3) - create IPC identifier from path name
+ftp (1) - a File Transfer Protocol client for Minix
+fts, fts_open, fts_read, fts_children, fts_set, fts_close (3) - traverse a file hierarchy
+ftw, nftw (3) - traverse (walk) a file tree
+funopen, funopen2, fropen, fropen2, fwopen, fwopen2 (3) - open a stream
+fwide (3) - get/set orientation of a stream
+gai_strerror (3) - get error message string from EAI_xxx error code
+gelf_fsize, elf32_fsize, elf64_fsize (3) - return the size of a file type
+gelf_getcap, gelf_update_cap (3) - read and update ELF capability information
+gelf_getclass (3) - retrieve the class of an ELF descriptor
+gelf_getdyn, gelf_update_dyn (3) - read and update ELF dynamic entries
+gelf_getmove, gelf_update_move (3) - read and update Elf Move information
+gelf_getrel, gelf_update_rel (3) - read and update ELF relocation entries
+gelf_getrela, gelf_update_rela (3) - read and update ELF relocation entries with addends
+gelf_getsym, gelf_update_sym (3) - read and update symbol information
+gelf_getsyminfo, gelf_update_syminfo (3) - read and update symbol information
+gelf_getsymshndx, gelf_update_symshndx (3) - read and update symbol information using extended section indices
+gelf_update_ehdr, gelf_update_phdr, gelf_update_shdr (3) - update underlying ELF data structures
+genassym (1) - emit an assym.h file
+getaddrinfo, freeaddrinfo, allocaddrinfo (3) - host and service name to socket address structure
+getbsize (3) - get user block size
+getcwd, getwd (3) - get working directory pathname
+getdate, getdate_err (3) - convert user format date and time
+getdelim, getline (3) - read a delimited record from a stream
+getdevmajor (3) - get block or character device major number
+getdiskbyname, setdisktab (3) - get generic disk description by its name
+getdomainname, setdomainname (3) - get/set domain name of current host
+getdtablesize (3) - get descriptor table size
+getenv, getenv_r, putenv, setenv, unsetenv (3) - environment variable functions
+getfsent, getfsspec, getfsfile, setfsent, endfsent (3) - get file system descriptor file entry
+getgid, getegid (2) - get group identity
+getgrent, getgrent_r, getgrgid, getgrgid_r, getgrnam, getgrnam_r, setgroupent, setgrent, endgrent (3) - group database operations
+getgrouplist, getgroupmembership, (3) - calculate group access list
+gethostbyname, gethostbyname2, gethostbyaddr, gethostent, sethostent, endhostent, herror, hstrerror (3) - get network host entry
+gethostid, sethostid (3) - get/set unique identifier of current host
+gethostname, sethostname (3) - get/set name of current host
+getifaddrs (3) - get interface addresses
+getitimer, setitimer (2) - get and set value of interval timer
+getlastlogx, getutmp, getutmpx, updlastlogx, updwtmpx, utmpxname (3) - user accounting database functions
+getloadavg (3) - get system load averages
+getmntinfo (3) - get information about mounted file systems
+getmntopts (3) - scan mount options
+getmode, setmode (3) - modify mode bits
+getnameinfo (3) - socket address structure to hostname and service name
+getnetent, getnetbyaddr, getnetbyname, setnetent, endnetent (3) - get network entry
+getnetgrent, innetgr, setnetgrent, endnetgrent (3) - netgroup database operations
+getnucred (2) - obtain the credentials that correspond to the given endpoint.
+getopt (3) - get option character from command line argument list
+getopt_long (3) - get long options from command line argument list
+getpagesize (3) - get system page size
+getpass (3) - get a password
+getpeereid (2) - get the effective user ID and effective group ID of a peer connected through a Unix domain socket.
+getpeereid (3) - get the effective credentials of a UNIX-domain peer
+getpeername (2) - get the name/address of the connected peer.
+getpid, getppid (2) - get process identification
+getpriority, setpriority (2) - get and set scheduling priority
+getprogname, setprogname (3) - get/set the name of the current program
+getprotoent, getprotobynumber, getprotobyname, setprotoent, endprotoent (3) - get protocol entry
+getpwent, getpwent_r, getpwnam, getpwnam_r, getpwuid, getpwuid_r, setpassent, setpwent, endpwent (3) - password database operations
+getservent, getservbyport, getservbyname, setservent, endservent (3) - get service entry
+getsockname (2) - get the current name/address of a socket.
+getsockopt (2) - get the value of a socket option.
+getsubopt (3) - get sub options from an argument
+gettimeofday (2) - get date and time
+getttyent, getttynam, setttyent, setttyentpath, endttyent (3) - get ttys file entry
+getty (8) - system login banner
+getuid, geteuid (2) - get user identity
+getusershell, setusershell, endusershell (3) - get valid user shells
+glob, globfree, glob_pattern_p (3) - generate pathnames matching a pattern
+grantpt (3) - grant access to a slave pseudo-terminal device
+grep, egrep, fgrep, zgrep, zegrep, zfgrep (1) - file pattern searcher
+group (8) - manage group information on the system
+groupadd (8) - add a group to the system
+groupdel (8) - remove a group from the system
+groupinfo (8) - displays group information
+groupmod (8) - modify an existing group on the system
+groups (1) - show group memberships
+gzexe (1) - create auto-decompressing executables
+gzip (1) - compression/decompression tool using Lempel-Ziv coding (LZ77)
+halt (8) - abruptly stop the system
+hash (3) - hash database access method
+hcreate, hcreate_r, hdestroy, hdestroy_r, hsearch, hsearch_r (3) - manage hash search table
+head (1) - print the first few lines of a file
+hexdump (1) - ascii, decimal, hexadecimal, octal dump
+hgfs (8) - VMware Host/Guest File System server
+hier (7) - Description of the file system hierarchy
+host (1) - look up host names using domain server
+hostaddr (1) - show ethernet address, IP address or hostname
+hosts (5) - hostname to IP address database
+htonl, htons, ntohl, ntohs (3) - convert values between host and network byte order
+http_status (5) - HTTP status numbers and their meanings
+httpd, in.httpd, dir2html (8) - a web server for Minix 2 and Minix 3
+httpd.conf httpd.mtype (5) - configuration files for the Minix httpd web server
+hypot, hypotf (3) - Euclidean distance and complex absolute value functions
+iconv_open, iconv_close, iconv (3) - codeset conversion functions
+id (1) - return user identity
+if_nametoindex, if_indextoname, if_nameindex, if_freenameindex (3) - provide mappings between interface names and indexes
+ifconfig (8) - configure a TCP/IP device
+ifdef (1) - remove #ifdefs from a file
+indent (1) - indent and format C program source
+index (3) - locate character in string
+inet, inet.conf (8) - TCP/IP server
+inet6_opt_init, inet6_opt_append, inet6_opt_finish, inet6_opt_set_val, inet6_opt_next, inet6_opt_find, inet6_opt_get_val (3) - IPv6 Hop-by-Hop and Destination Options manipulation
+inet6_option_space, inet6_option_init, inet6_option_append, inet6_option_alloc, inet6_option_next, inet6_option_find (3) - IPv6 Hop-by-Hop and Destination Options manipulation
+inet6_rth_space, inet6_rth_init, inet6_rth_add, inet6_rth_reverse, inet6_rth_segments, inet6_rth_getaddr (3) - IPv6 Routing Header Options manipulation
+inet6_rthdr_space, inet6_rthdr_init, inet6_rthdr_add, inet6_rthdr_lasthop, inet6_rthdr_reverse, inet6_rthdr_segments, inet6_rthdr_getaddr, inet6_rthdr_getflags (3) - IPv6 Routing Header Options manipulation
+inet_addr, inet_aton, inet_lnaof, inet_makeaddr, inet_netof, inet_network, inet_ntoa, inet_ntop, inet_pton, addr, ntoa, network (3) - Internet address manipulation routines
+inet_net_ntop, inet_net_pton (3) - Internet network number manipulation routines
+infocmp (1) - compare or print compiled terminfo descriptions
+init (8) - grandparent of all processes
+initgroups (3) - initialize supplementary group IDs
+insque, remque (3) - insert/remove element from a queue
+install (1) - install binaries
+intr (8) - run a command with interrupts enabled
+intro, errno (2) - introduction to system calls and error numbers
+ioctl (2) - control device
+ip, eth, psip, udp, tcp (4) - Internet Protocol server devices and definitions
+irdpd (8) - internet router discovery protocol daemon
+isalnum (3) - alphanumeric character test
+isalpha (3) - alphabetic character test
+isalpha, isupper, islower, isdigit, isxdigit, isalnum, isspace, ispunct, isprint, isgraph, iscntrl, isblank, toupper, tolower, (3) - character classification and mapping functions
+isascii (3) - test for ASCII character
+isblank (3) - blank-space character test
+iscntrl (3) - control character test
+isdigit (3) - decimal-digit character test
+isfinite (3) - test for finite value
+isgraph (3) - printing character test (space character exclusive)
+isgreater, isgreaterequal, isless, islessequal, islessgreater, isunordered (3) - compare two floating-point numbers
+isinf (3) - test for infinity
+isinff, isnanf (3) - test for infinity or not-a-number
+islower (3) - lower-case character test
+isnan (3) - test for not-a-number
+isnormal (3) - test for normal value
+iso_addr, iso_ntoa (3) - elementary network address conversion routines for Open System Interconnection
+isodir (1) - list ISO9660 or High Sierra directories
+isoinfo (1) - list an ISO9660 or High Sierra volume descriptor
+isoread (1) - read a file in ISO9660 or High Sierra format
+isprint (3) - printing character test (space character inclusive)
+ispunct (3) - punctuation character test
+isspace (3) - white-space character test
+isupper (3) - upper-case character test
+iswalnum, iswalpha, iswblank, iswcntrl, iswdigit, iswgraph, iswlower, iswprint, iswpunct, iswspace, iswupper, iswxdigit (3) - wide character classification utilities
+iswctype (3) - test a character for character class identifier
+isxdigit (3) - hexadecimal-digit character test
+j0, j0f, j1, j1f, jn, jnf, y0, y0f, y1, y1f, yn, ynf (3) - Bessel functions of first and second kind
+jemalloc (3) - the default system allocator
+join (1) - relational database operator
+keymap (5) - keyboard maps
+kill (1) - terminate or signal a process
+kill (2) - send signal to a process
+killpg (3) - send signal to a process group
+last, uptime (1) - display recent on-line session records, show uptime
+ld.elf_so (1) - run-time link-editor (linker)
+ldd (1) - list dynamic object dependencies
+ldexp (3) - multiply floating-point number by integral power of 2
+less (1) - opposite of more (a filter for browsing text files)
+lesskey (1) - specify key bindings for less
+lgamma, lgammaf, lgamma_r, lgammaf_r, gamma, gammaf, gamma_r, gammaf_r (3) - log gamma function
+libarchive (3) - functions for reading and writing streaming archives
+libarchive-formats (5) - archive formats supported by the libarchive library
+libarchive_internals (3) - description of libarchive internal interfaces
+link (2) - make a hard link to a file
+link_addr, link_ntoa (3) - elementary address specification routines for link level access
+linkfarm (1) - manage symbolic links to package files
+listen (2) - listens for incoming connections on a socket
+llrint, llrintf, lrint, lrintf (3) - convert to integer
+loadfont (1) - load a font into the video card
+loadkeys (1) - load a keyboard map into the keyboard driver
+loadramdisk (8) - copy an image of a file system to /dev/ram
+lockf (3) - record locking on files
+logb, logbf, scalb, scalbf, significand, significandf (3) - IEEE test functions
+logger (1) - make entries in the system log
+login (1) - authenticate users and set up their session environment
+login, logout, logwtmp (3) - login utility functions
+login_getclass, login_getcapbool, login_getcapnum, login_getcapsize, login_getcapstr, login_getcaptime, login_close, setclasscontext, setusercontext (3) - query login.conf database about a user class
+loginx, logoutx, logwtmpx (3) - login utility functions
+look (1) - find lines in a sorted list
+lorder (1) - list dependencies for object files
+lp (4) - line printer
+lp, lpd (1) - copy a file to the line printer
+ls (1) - list directory contents
+lsearch, lfind (3) - linear searching routines
+lseek (2) - move read/write pointer
+lspci (1) - print table of PCI devices
+m4 (1) - macro language processor
+magic (5) - file command's magic pattern file
+magic_open, magic_close, magic_error, magic_descriptor, magic_buffer, magic_setflags, magic_check, magic_compile, magic_load (3) - Magic number recognition library
+mail (1) - send and receive electronic mail
+make (1) - maintain program dependencies
+makecontext, swapcontext (3) - manipulate user contexts
+makewhatis (8) - create a whatis.db database
+malloc, calloc, realloc, free (3) - general purpose memory allocation functions
+malloc, free, realloc, calloc, alloca (3) - general memory allocation operations
+man (7) - man language reference
+man (7) - nroff macro package for manual pages
+man, man_alloc, man_endparse, man_free, man_meta, man_node, man_parseln, man_reset (3) - man macro compiler library
+man.conf (5) - configuration file for manual pages
+mandoc (1) - format and display UNIX manuals
+mandoc_char (7) - mandoc special characters
+mblen (3) - get number of bytes in a multibyte character
+mbrlen (3) - get number of bytes in a multibyte character (restartable)
+mbrtowc (3) - converts a multibyte character to a wide character (restartable)
+mbsinit (3) - determines whether the state object is in the initial state
+mbsrtowcs (3) - converts a multibyte character string to a wide-character string  (restartable)
+mbstowcs (3) - converts a multibyte character string to a wide-character string
+mbtowc (3) - converts a multibyte character to a wide character
+mdoc (7) - mdoc language reference
+mdoc, mdoc_alloc, mdoc_endparse, mdoc_free, mdoc_meta, mdoc_node, mdoc_parseln, mdoc_reset (3) - mdoc macro compiler library
+membar_ops, membar_enter, membar_exit, membar_producer, membar_consumer, membar_sync (3) - memory access barrier operations
+memccpy (3) - copy string until character found
+memccpy, memchr, memcmp, memcpy, memmem, memmove, memset (3) - byte string operations
+memchr, memrchr (3) - locate byte in byte string
+memcmp (3) - compare byte string
+memcpy (3) - copy byte string
+memmem (3) - locate substring in byte string
+memmove (3) - copy byte string
+memset (3) - write a byte to byte string
+mesg (1) - permit or deny messages
+mi_vector_hash (3) - fast 32bit hash functions
+ministat (1) - statistics utility
+mixer (1) - manipulate mixer settings on a sound card
+mkdep (1) - construct Makefile dependency list
+mkdir (1) - make directories
+mkdir (2) - make a directory file
+mkfifo (1) - make fifos
+mkfs (1) - make a file system
+mknod (8) - make device special file
+mknod, mkfifo (2) - make a special file
+mkproto (1) - create a MINIX 3 prototype file
+mktemp (1) - make temporary file name (unique)
+mktemp, mkstemp, mkdtemp (3) - make unique temporary file or directory name
+modf (3) - extract signed integral and fractional values from floating-point number
+mount (1) - mount a file system
+mount, umount (2) - mount or umount a file system
+mpool, mpool_open, mpool_filter, mpool_new, mpool_get, mpool_put, mpool_sync, mpool_close (3) - shared memory buffer pool
+mt (1) - magnetic tape control
+mtio (4) - magnetic tape commands
+mtree (5) - format of mtree dir hierarchy files
+mtree (8) - map a directory hierarchy
+nan, nanf, nanl (3) - return quiet NaN
+nbperf (1) - compute a perfect hash function
+netconf (8) - a script to configure the network
+newfs_ext2fs (8) - construct a new ext2 file system
+newgrp (1) - change to a new primary group
+newroot (8) - replace the current root with a new one
+nice (1) - invoke command with higher or lower scheduling priority
+nice (3) - set program scheduling priority
+nl_langinfo (3) - get locale information
+nlist (3) - retrieve symbol table name list from an executable file
+nm (1) - print name list
+nohup (1) - ignore hangup signal
+nsdispatch (3) - name-service switch dispatcher routine
+od (1) - octal dump
+offtime, timeoff, timegm, timelocal (3) - convert date and time
+open (2) - open a file for reading or writing, or create a new file
+opendisk (3) - open a disk partition
+openpty, login_tty, forkpty (3) - tty utility functions
+ossinfo (August) - Open Sound System legacy device management utility.
+part (8) - partition table editor
+partition (8) - make a partition table
+passwd (1) - modify a user's password
+passwd, group, shadow (5) - user and group databases, shadow passwords
+paste (1) - paste multiple files together
+patch (1) - apply a diff file to an original
+pause (2) - stop until signal
+pause (3) - stop until signal
+pax (1) - read and write file archives and copy directory hierarchies
+perror, strerror, strerror_r, sys_errlist, sys_nerr (3) - system error messages
+pidfile (3) - write a daemon pid file
+pidlock, ttylock, ttyunlock (3) - locks based on files containing PIDs
+ping (1) - send ICMP ECHO_REQUEST packets to network hosts
+pipe (2) - create an interprocess communication channel
+pkg_install.conf (5) - configuration file for package installation tools
+pkg_summary (5) - summary of binary package repository
+pkg_view (1) - add and delete instances of depoted packages in views
+pkgsrc (7) - NetBSD packages collection (framework for third-party software)
+playwave (1) - play an audio file in MicroSoft PCM wave format
+popcount, popcountl, popcountll, popcount32, popcount64 (3) - count number of bits set in a bit string
+posix_memalign (3) - aligned memory allocation
+posix_openpt (3) - open a pseudo-terminal device
+posix_spawn, posix_spawnp (3) - spawn a process
+posix_spawn_file_actions_addopen, posix_spawn_file_actions_adddup2, posix_spawn_file_actions_addclose (3) - add open, dup2 or close action to spawn file actions object
+posix_spawn_file_actions_init, posix_spawn_file_actions_destroy (3) - initialize and destroy spawn file actions object
+posix_spawnattr_getflags, posix_spawnattr_setflags (3) - get and set the spawn-flags attribute of a spawn attributes object
+posix_spawnattr_getpgroup, posix_spawnattr_setpgroup (3) - get and set the spawn-pgroup attribute of a spawn attributes object
+posix_spawnattr_getschedparam, posix_spawnattr_setschedparam (3) - get and set the spawn-schedparam attribute of a spawn attributes object
+posix_spawnattr_getschedpolicy, posix_spawnattr_setschedpolicy (3) - get and set the spawn-schedpolicy attribute of a spawn attributes object
+posix_spawnattr_getsigdefault, posix_spawnattr_setsigdefault (3) - get and set the spawn-sigdefault attribute of a spawn attributes object
+posix_spawnattr_getsigmask, posix_spawnattr_setsigmask (3) - get and set the spawn-sigmask attribute of a spawn attributes object
+posix_spawnattr_init, posix_spawnattr_destroy (3) - initialize and destroy spawn attributes object
+postinstall (8) - check and fix installation after system upgrades
+poweroff (1) - power off the machine
+pr (1) - print a file
+pr_routes (8) - show IP routing.
+prep (1) - prepare a text file for statistical analysis
+printf (1) - formatted output
+printf, fprintf, dprintf sprintf, snprintf, asprintf, vprintf, vfprintf, vsprintf, vdprintf, vsnprintf, vsnprintf_ss, vasprintf (3) - formatted output conversion
+printroot (8) - print the name of the root device on standard output
+profile (1) - MINIX system profiling control command
+prop_array, prop_array_create, prop_array_create_with_capacity, prop_array_copy, prop_array_copy_mutable, prop_array_capacity, prop_array_count, prop_array_ensure_capacity, prop_array_iterator, prop_array_make_immutable, prop_array_mutable, prop_array_get, prop_array_set, prop_array_add, prop_array_remove, prop_array_externalize, prop_array_internalize, prop_array_externalize_to_file, prop_array_internalize_from_file, prop_array_externalize_to_pref, prop_array_internalize_from_pref, prop_array_equals (3) - array property collection object
+prop_array_copyin_ioctl, prop_array_copyout_ioctl, prop_array_copyin, prop_array_copyout, prop_dictionary_copyin_ioctl, prop_dictionary_copyout_ioctl, prop_dictionary_copyin, prop_dictionary_copyout (9) - Copy property lists to and from kernel space
+prop_array_send_ioctl, prop_array_recv_ioctl, prop_dictionary_send_ioctl, prop_dictionary_recv_ioctl, prop_dictionary_sendrecv_ioctl (3) - Send and receive propertly lists to and from the kernel using ioctl
+prop_array_send_syscall, prop_array_recv_syscall, prop_dictionary_send_syscall, prop_dictionary_recv_syscall (3) - send and receive property lists to and from the kernel using syscalls
+prop_array_util, prop_array_get_bool, prop_array_set_bool, prop_array_get_int8, prop_array_get_uint8, prop_array_set_int8, prop_array_set_uint8, prop_array_get_int16, prop_array_get_uint16, prop_array_set_int16, prop_array_set_uint16, prop_array_get_int32, prop_array_get_uint32, prop_array_set_int32, prop_array_set_uint32, prop_array_get_int64, prop_array_get_uint64, prop_array_set_int64, prop_array_set_uint64, prop_array_add_int8, prop_array_add_uint8, prop_array_add_int16, prop_array_add_uint16, prop_array_add_int32, prop_array_add_uint32, prop_array_add_int64, prop_array_add_uint64, prop_array_get_cstring, prop_array_set_cstring, prop_array_get_cstring_nocopy, prop_array_set_cstring_nocopy, prop_array_add_and_rel (3) - array property collection object utility functions
+prop_bool, prop_bool_create, prop_bool_copy, prop_bool_true (3) - boolean value property object
+prop_data, prop_data_create_data, prop_data_create_data_nocopy, prop_data_copy, prop_data_size, prop_data_data, prop_data_data_nocopy, prop_data_equals, prop_data_equals_data (3) - opaque data value property object
+prop_dictionary, prop_dictionary_create, prop_dictionary_create_with_capacity, prop_dictionary_copy, prop_dictionary_copy_mutable, prop_dictionary_count, prop_dictionary_ensure_capacity, prop_dictionary_iterator, prop_dictionary_all_keys, prop_dictionary_make_immutable, prop_dictionary_mutable, prop_dictionary_get, prop_dictionary_set, prop_dictionary_remove, prop_dictionary_get_keysym, prop_dictionary_set_keysym, prop_dictionary_remove_keysym, prop_dictionary_externalize, prop_dictionary_internalize, prop_dictionary_externalize_to_file, prop_dictionary_internalize_from_file, prop_dictionary_externalize_to_pref, prop_dictionary_internalize_from_pref, prop_dictionary_equals, prop_dictionary_keysym_cstring_nocopy, prop_dictionary_keysym_equals (3) - dictionary property collection object
+prop_dictionary_util, prop_dictionary_get_dict, prop_dictionary_get_bool, prop_dictionary_set_bool, prop_dictionary_get_int8, prop_dictionary_get_uint8, prop_dictionary_set_int8, prop_dictionary_set_uint8, prop_dictionary_get_int16, prop_dictionary_get_uint16, prop_dictionary_set_int16, prop_dictionary_set_uint16, prop_dictionary_get_int32, prop_dictionary_get_uint32, prop_dictionary_set_int32, prop_dictionary_set_uint32, prop_dictionary_get_int64, prop_dictionary_get_uint64, prop_dictionary_set_int64, prop_dictionary_set_uint64, prop_dictionary_get_cstring, prop_dictionary_set_cstring, prop_dictionary_get_cstring_nocopy, prop_dictionary_set_cstring_nocopy, prop_dictionary_set_and_rel (3) - dictionary property collection object utility functions
+prop_ingest_context_alloc, prop_ingest_context_free, prop_ingest_context_error, prop_ingest_context_type, prop_ingest_context_key, prop_ingest_context_private, prop_dictionary_ingest (3) - Ingest a dictionary into an arbitrary binary format
+prop_number, prop_number_create_integer, prop_number_create_unsigned_integer, prop_number_copy, prop_number_size, prop_number_unsigned, prop_number_integer_value, prop_number_unsigned_integer_value, prop_number_equals, prop_number_equals_integer, prop_number_equals_unsigned_integer (3) - numeric value property object
+prop_object, prop_object_retain, prop_object_release, prop_object_type, prop_object_equals, prop_object_iterator_next, prop_object_iterator_reset, prop_object_iterator_release (3) - general property container object functions
+prop_string, prop_string_create, prop_string_create_cstring, prop_string_create_cstring_nocopy, prop_string_copy, prop_string_copy_mutable, prop_string_size, prop_string_mutable, prop_string_cstring, prop_string_cstring_nocopy, prop_string_append, prop_string_append_cstring, prop_string_equals, prop_string_equals_cstring (3) - string value property object
+proplib (3) - property container object library
+ps (1) - process status
+psignal, psiginfo, sys_siglist, sys_signame (3) - system signal messages
+pthread_atfork (3) - register handlers to be called when process forks
+ptrace (2) - process trace
+ptsname (3) - get the pathname of the slave pseudo-terminal device
+puffs (3) - Pass-to-Userspace Framework File System development interface
+puffs_cc (3) - puffs continuation routines
+puffs_cred (3) - puffs credential and access control routines
+puffs_node (3) - puffs node routines
+puffs_ops (3) - puffs callback operations
+puffs_path (3) - puffs pathbuilding routines
+pw_getconf, pw_getpwconf (3) - password encryption configuration access function
+pw_init, pw_edit, pw_prompt, pw_copy, pw_copyx, pw_scan, pw_error (3) - utility functions for interactive passwd file updates
+pw_lock, pw_mkdb, pw_abort, pw_setprefix, pw_getprefix (3) - passwd file update functions
+pwcache, user_from_uid, group_from_gid (3) - cache password and group entries
+pwd (1) - return working directory name
+pwd_mkdb (8) - generate the password databases
+pwdauth (8) - password authentication program
+qabs (3) - return the absolute value of a quad integer
+qdiv (3) - return quotient and remainder from division
+qsort, heapsort, mergesort (3) - sort functions
+radixsort, sradixsort (3) - radix sort
+raise (3) - send a signal to the current thread
+raise_default_signal (3) - raise the default signal handler
+rand, srand, rand_r (3) - bad random number generator
+random, srandom, initstate, setstate (3) - better random number generator; routines for changing generators
+randomid randomid_new, randomid_delete, (3) - provide pseudo-random data stream without repetitions
+rarpd (8) - reverse address resolution protocol daemon
+rcmd, orcmd, rcmd_af, orcmd_af, rresvport, rresvport_af, iruserok, ruserok, iruserok_sa (3) - routines for returning a stream to a remote command
+rcp (1) - remote file copy
+rdate (8) - set time and date from a remote host
+re_format (7) - POSIX 1003.2 regular expressions
+read, pread (2) - read input
+readclock (8) - read the AT's real time clock
+readlink (2) - read the contents of a symlink
+realpath (3) - returns the canonicalized absolute pathname
+reboot (2) - close down the system or reboot
+reboot (8) - reboot the system immediately
+recno (3) - record number database access method
+recv (2) - receive a message through a socket
+recvfrom (2) - receive a message through a socket
+recvmsg (2) - receive a message through a socket
+recwave (1) - record an audio file in MicroSoft PCM wave format
+refuse (3) - Re-implementation of a file system in userspace system
+regex, regcomp, regexec, regerror, regfree (3) - regular-expression library
+remove (3) - remove directory entry
+remsync (1) - remotely synchronize file trees
+rename (2) - change the name of a file
+repartition (8) - load a partition table
+res_ninit, res_ourserver_p, fp_resstat, res_hostalias, res_pquery, res_nquery, res_nsearch, res_nquerydomain, res_nmkquery, res_nsend, res_nupdate, res_nmkupdate, res_nclose, res_nsendsigned, res_findzonecut, res_getservers, res_setservers, res_ndestroy, dn_comp, dn_expand, res_init, res_isourserver, fp_nquery, p_query, hostalias, res_query, res_search, res_querydomain, res_mkquery, res_send, res_update, res_close, (3) - resolver routines
+resolv.conf (5) - Domain Name System resolver configuration
+resolver (5) - resolver configuration file
+rget, rput (1) - network pipe
+rhosts, hosts.equiv (5) - trusted remote users or hosts
+rindex (3) - locate character in string
+rint, rintf (3) - round to integral value in floating-point format
+rlogin (1) - remote login
+rm (1) - remove directory entries
+rmdir (1) - remove directories
+rmdir (2) - remove a directory file
+rmtops (3) - access tape drives on remote machines
+roff (7) - roff language reference for mandoc
+round, roundf (3) - round to nearest integral value
+rsh (1) - remote shell
+rshd (8) - remote shell server
+rz (1) - receive a file using the zmodem protocol
+scandir, alphasort (3) - scan a directory
+scanf, fscanf, sscanf, vscanf, vsscanf, vfscanf (3) - input format conversion
+screendump (8) - write current console screen to standard output
+secure_path (3) - determine if a file appears to be ``secure''
+sed (1) - stream editor
+select, FD_CLR, FD_ISSET, FD_SET, FD_ZERO (2) - synchronous I/O multiplexing
+send (2) - send a message through a socket
+sendmsg (2) - send a message through a socket
+sendto (2) - send a message through a socket
+seq (1) - print sequences of numbers
+serial-ip (8) - Serial IP (SLIP or PPP) setup
+serv.access (5) - Internet service access list
+service (8) - Manage an operating system service.
+setbuf, setbuffer, setlinebuf, setvbuf (3) - stream buffering operations
+setlocale, localeconv (3) - natural language formatting for C
+setproctitle (3) - set process title
+setruid, setrgid (3) - set user and group ID
+setsid, getpgrp (2) - create process group, get process group id
+setsockopt (2) - set the value of a socket option.
+setuid, seteuid, setgid, setegid (2) - set (effective) user or group ID's
+setup (8) - Install MINIX 3 on a hard disk
+setupterm, set_curterm, del_curterm, termname, longname, tigetflag, tigetnum, tigetstr, tparm, tputs, putp (3) - terminal independent operation routines
+shar (1) - shell archiver
+shquote, shquotev (3) - quote argument strings for use with the shell
+shutdown (2) - shuts down a socket for reading, writing, or both
+shutdown (8) - graciously close the system down
+sigaction, signal (2) - manage signal state and handlers
+sigblock (3) - block signals
+sigemptyset, sigfillset, sigaddset, sigdelset, sigismember (3) - manipulate signal sets
+sighold (3) - manipulate current signal mask
+sigignore (3) - manipulate signal dispositions
+siginterrupt (3) - allow signals to interrupt system calls
+signal (3) - simplified software signal facilities
+signbit (3) - test sign
+sigpause (3) - atomically release blocked signals and wait for interrupt
+sigpending (2) - report pending signals
+sigprocmask (2) - manipulate the signal mask
+sigrelse (3) - manipulate current signal mask
+sigset (3) - manipulate signal dispositions
+sigsetjmp, siglongjmp, setjmp, longjmp, _setjmp, _longjmp, longjmperror (3) - non-local jumps
+sigsetmask (3) - set current signal mask
+sigsuspend (2) - suspend until signalled
+sigvec (3) - software signal facilities
+sin, sinf (3) - sine function
+sinh, sinhf (3) - hyperbolic sine function
+sleep (1) - suspend execution for a given number of seconds
+sleep (3) - suspend process execution for interval of seconds
+slip (8) - Serial Line IP
+snprintb (3) - bitmask output conversion
+sockatmark (3) - determine whether a socket is at the out-of-band mark
+socket (2) - creates a socket.
+socketpair (2) - creates a pair of connected sockets.
+sort (1) - sort or merge text files
+spell (1) - print all words in a file not present in the dictionary
+split (1) - split a large file into several smaller files
+srccrc (8) - compute CRC checksums of the entire source tree
+ssp (3) - bounds checked libc functions
+stat, readlink (1) - display file status
+statvfs (5) - file system statistics
+statvfs, fstatvfs, (2) - get file system statistics
+stdio (3) - standard input/output library functions
+stpcpy, stpncpy, strcat, strlcat, strncat, strchr, strrchr, strcmp, strncmp, strcasecmp, strncasecmp, strcoll, strcpy, strlcpy, strncpy, strerror, strerror_r, strlen, strnlen, strpbrk, strsep, stresep, strspn, strcspn, strdup, strndup, strstr, strcasestr, strtok, strtok_r, strxfrm (3) - string specific functions
+stpcpy, stpncpy, strcpy, strncpy (3) - copy strings
+strcasecmp, strncasecmp (3) - compare strings, ignoring case
+strcat, strncat (3) - concatenate strings
+strchr (3) - locate character in string
+strcmp, strncmp (3) - compare strings
+strcoll (3) - compare strings according to current collation
+strcspn (3) - span the complement of a string
+strdup, strndup (3) - save a copy of a string
+strfmon (3) - convert monetary value to string
+strftime, strftime_z (3) - format date and time
+string_to_flags, flags_to_string (3) - Stat flags parsing and printing functions
+stringlist, sl_init, sl_add, sl_free, sl_find, sl_delete (3) - stringlist manipulation functions
+strlcpy, strlcat (3) - size-bounded string copying and concatenation
+strlen, strnlen (3) - find length of string
+strmode (3) - convert inode status information into a symbolic string
+strpbrk (3) - locate multiple characters in string
+strptime (3) - converts a character string to a time value
+strrchr (3) - locate character in string
+strsep, stresep (3) - separate strings
+strsignal (3) - get signal description string
+strspn (3) - span a string
+strstr, strcasestr (3) - locate a substring in a string
+strsuftoll, strsuftollx (3) - convert a string to a long long, with suffix parsing
+strtok, strtok_r (3) - string tokens
+strtol, strtoll, strtoimax, strtoq (3) - convert string value to a long, long long, intmax_t or quad_t integer
+strtoul, strtoull, strtoumax, strtouq (3) - convert a string to an unsigned long, unsigned long long, uintmax_t or uquad_t integer
+strxfrm (3) - transform a string under locale
+stty (1) - set terminal parameters
+su (1) - substitute user identity
+svc, ci, co, svclog (1) - shell version control system
+svrctl (1) - send servers control messages
+svrctl (2) - special server control functions
+swab (3) - swap adjacent bytes
+symlink (2) - make a symbolic link to a file
+sync (8) - force completion of pending disk writes (flush cache)
+sync, fsync (2) - update dirty buffers and super-block
+synctree (1) - synchronize directory trees.
+sysconf (3) - get configurable system variables
+sysctl, sysctlbyname, sysctlgetmibinfo, sysctlnametomib (3) - get or set system information
+sysenv (1) - request system boot parameter
+syslog, syslog_r, vsyslog, vsyslog_r, syslogp, syslogp_r, vsyslogp, vsyslogp_r, openlog, openlog_r, closelog, closelog_r, setlogmask, setlogmask_r (3) - control system log
+syslog.conf (5) - syslogd(8) configuration file
+system (3) - pass a command to the shell
+system.conf (5) - operating system service configuration
+sz (1) - send a file using the zmodem protocol
+tail (1) - print the last few lines of a file
+tan, tanf (3) - tangent function
+tanh, tanhf (3) - hyperbolic tangent function
+tar (1) - tape archiver
+tar (5) - format of tape archive files
+tbl (7) - tbl language reference for mandoc
+tcgetpgrp (3) - get foreground process group ID
+tcgetsid (3) - get session ID associated with a controlling terminal
+tcpd, tcpdp (8) - waits for a TCP connection request and starts a server
+tcsendbreak, tcdrain, tcflush, tcflow (3) - line control functions
+tcsetpgrp (3) - set foreground process group ID
+tee (1) - divert stdin to a file
+telnet (1) - user interface to the TELNET protocol
+template, blueprint (1) - a blueprint for making manual pages
+tempnam, tmpfile, tmpnam (3) - temporary file routines
+term (1) - turn PC into a dumb terminal [IBM]
+termcap (1) - print the current termcap entry
+termcap (5) - terminal capability data base
+terminfo (5) - terminal capability definition
+test, [ (1) - condition evaluation utility
+tget (1) - get termcap values
+tgetent, tgetnum, tgetflag, tgetstr, tgoto, tputs (3) - terminal independent operation routines
+tic (1) - terminfo compiler
+time (1) - report how long a command takes
+time (3) - get time of day
+time, stime (2) - get/set date and time
+time2posix, time2posix_z, posix2time, posix2time_z, (3) - convert seconds since the Epoch
+times (2) - get process times
+times (3) - process times
+timezone (3) - return the timezone abbreviation
+toascii (3) - convert a byte to 7-bit ASCII
+tolower (3) - upper case to lower case letter conversion
+touch (1) - change file access and modification times
+toupper (3) - lower case to upper case letter conversion
+towctrans (3) - convert a wide character with a specified map
+towlower (3) - wide character case letter conversion utilities
+tput, clear (1) - terminal capability interface
+tr (1) - translate character codes
+true, false (1) - exit with the value true or false
+trunc, truncf (3) - nearest integral value with magnitude less than or equal to |x|
+truncate (1) - truncate or extend the length of files
+truncate, ftruncate (2) - truncate a file to a specified length (may extend)
+tsearch, tfind, tdelete, twalk (3) - manipulate binary search trees
+tsort (1) - topological sort of a directed graph
+tty (1) - print the device name of this tty
+tty, termios (4) - terminals
+ttyaction (3) - ttyaction utility function
+ttyname, ttyname_r, isatty, ttyslot (3) - get name of associated terminal (tty) from file descriptor
+ttytab (5) - table of login terminals
+tzfile (5) - time zone information
+tzset (3) - initialize time conversion information
+ualarm (3) - schedule signal after specified time
+uds (4) - unix domain sockets device
+ulimit (3) - get and set process limits
+umask (2) - set file creation mode mask
+umount (1) - unmount a mounted file system
+uname (2) - get system info
+uname (3) - get system identification
+uname, arch (1) - system info
+unexpand (1) - convert spaces to tabs
+ungetc (3) - un-get character from input stream
+ungetwc (3) - un-get wide character from input stream
+uniq (1) - report or filter out repeated lines in a file
+unix (8) - Unix Domain Sockets (PF_UNIX) / Local Sockets (PF_LOCAL)
+unlink (2) - remove directory entry
+unlockpt (3) - unlock the slave pseudo-terminal device
+unvis, strunvis (3) - decode a visual representation of characters
+update (8) - periodically write the buffer cache to disk
+usage (8) - installing and using MINIX
+user (8) - manage user login information on the system
+useradd (8) - add a user to the system
+userdel (8) - remove a user from the system
+userinfo (8) - displays user information
+usermgmt.conf (5) - user management tools configuration file
+usermod (8) - modify user login information
+usleep (3) - suspend execution for interval of microseconds
+util, libutil (3) - system utilities library
+utime (2) - set file times
+utime (3) - set file times
+utmp, wtmp (5) - logged in users, login and logout history
+uud, uudecode (1) - decode a binary file encoded with uue
+uue, uuencode (1) - encode a binary file to ASCII (e.g., for mailing)
+uuid_compare, uuid_create, uuid_create_nil, uuid_equal, uuid_from_string, uuid_hash, uuid_is_nil, uuid_to_string, uuid_enc_le, uuid_dec_le, uuid_enc_be, uuid_dec_be (3) - Universally Unique Identifier routines
+valloc (3) - aligned memory allocation function
+vbfs (8) - VirtualBox Shared Folder File System server
+vipw (8) - edit the password file
+vis, nvis, strvis, strnvis, strvisx, strnvisx, svis, snvis, strsvis, strsnvis, strsvisx strsnvisx (3) - visually encode characters
+vol (1) - split input on or combine output from several volumes
+wait, waitpid (2) - wait for process to terminate
+wc (1) - count characters, words, and lines in a file
+wcrtomb (3) - converts a wide character to a multibyte character (restartable)
+wcscasecmp, wcsncasecmp (3) - compare wide-character strings, ignoring case
+wcscoll (3) - compare wide strings according to current collation
+wcsdup (3) - save a copy of a string
+wcsftime (3) - convert date and time to a wide-character string
+wcsrtombs (3) - converts a wide-character string to a multibyte character string  (restartable)
+wcstok (3) - split wide-character string into tokens
+wcstombs (3) - converts a wide-character string to a multibyte character string
+wcswidth (3) - number of column positions in wide-character string
+wcsxfrm (3) - transform a wide string under locale
+wctob (3) - convert a wide character to a single byte character
+wctomb (3) - converts a wide character to a multibyte character
+wctrans (3) - get character mapping identifier by name
+wctype (3) - get character class identifier by name
+wcwidth (3) - number of column positions of a wide-character code
+whatis (5) - database of online manual pages
+whereis (1) - examine system directories for a given file
+which (1) - examine $PATH to see which file will be executed
+who (1) - print list of currently logged in users
+whoami (1) - display effective user id
+wmemchr, wmemcmp, wmemcpy, wmemmove, wmemset, wcscat, wcschr, wcscmp, wcscpy, wcscspn, wcslcat, wcslcpy, wcslen, wcsncat, wcsncmp, wcsncpy, wcspbrk, wcsrchr, wcsspn, wcsstr wcswcs (3) - wide-character string manipulation operations
+wordexp (3) - perform shell-style word expansions
+worldstone (1) - shell script to consistently execute benchmarks
+wprintf, fwprintf, swprintf, vwprintf, vfwprintf, vswprintf (3) - formatted wide character output conversion
+write (1) - send a message to a logged-in user
+write (2) - write output
+wscanf, fwscanf, swscanf, vwscanf, vswscanf, vfwscanf (3) - wide character input format conversion
+xargs (1) - construct argument list(s) and execute utility.
+yap, more (1) - yet another pager
+yes (1) - an endless stream of the same word
+zcmp, zdiff (1) - compare compressed files
+zdump (8) - time zone dumper
+zforce (1) - force gzip files to have a .gz suffix
+zic (8) - time zone compiler
+zmore (1) - view compressed files on a CRT
+znew (1) - convert compressed files to gzipped files

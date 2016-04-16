@@ -1,0 +1,39 @@
+ABI=
+BUILD_DATE=2012-03-07 11:50:20 +0100
+BUILD_HOST=Minix minix 3.2.1 i686
+BUILTIN_PKGS=bzip2-1.0.5 libarchive-2.8.3 zlib-1.2.5
+CATEGORIES=pkgtools
+CC_VERSION=gcc-4.4.6
+CFLAGS=-Wno-error -march=i586
+CMAKE_ARGS=
+CONFIGURE_ARGS=--sysconfdir=/usr/pkg/etc --with-pkgdbdir=/usr/var/db/pkg --prefix=/usr/pkg --build=i386-pc-minix --host=i386-pc-minix --mandir=/usr/pkg/man
+CONFIGURE_ENV=LIBS=-larchive\ -larchive\ -lbz2\ -lz\ \ -lnbcompat INSTALL_INFO= MAKEINFO=/usr/tmp/work/pkgtools/pkg_install/work/.tools/bin/makeinfo AWK=/usr/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/usr/bin/chmod CMP=/usr/bin/cmp CP=/bin/cp DIFF=/usr/bin/diff ECHO=/bin/echo ac_cv_path_ECHO=/bin/echo EGREP=/usr/bin/egrep ac_cv_path_EGREP=/usr/bin/egrep SETENV=/usr/bin/env ENV_PROG=/usr/bin/env ac_cv_path_ENV=/usr/bin/env FALSE=/bin/false ac_cv_path_FALSE=/bin/false FIND=/usr/bin/find GREP=/usr/bin/grep ac_cv_path_GREP=/usr/bin/grep HOSTNAME=/usr/bin/hostname LN=/bin/ln LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/usr/bin/rmdir SED=/bin/sed SORT=/usr/bin/sort TEST=/bin/test ac_cv_path_TEST=/bin/test TOUCH=/usr/bin/touch TR=/usr/bin/tr TRUE=/bin/true ac_cv_path_TRUE=/bin/true PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/tmp/work/pkgtools/pkg_install/work/.buildlink/lib/pkgconfig:/usr/tmp/work/pkgtools/pkg_install/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/tmp/work/pkgtools/pkg_install/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -march=i586 CPPFLAGS=-D_LARGEFILE_SOURCE\ -D_LARGE_FILES\ -D_FILE_OFFSET_BITS=64\ -DDEF_UMASK=022\ -D_NETBSD_SOURCE\ -D_MINIX\ -D_POSIX_SOURCE\ -D_COMPAT_MINIX\ -I/usr/tmp/work/pkgtools/pkg_install/work/libfetch\ -DHAVE_NBCOMPAT_H=1\ -I/usr/tmp/work/pkgtools/pkg_install/work/libnbcompat CXX=g++ CXXFLAGS=-Wno-error\ -march=i586\ -D_NETBSD_SOURCE COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-lcompat_minix\ -lminlib\ -L/usr/tmp/work/pkgtools/pkg_install/work/libfetch\ -L/usr/tmp/work/pkgtools/pkg_install/work/libnbcompat\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/tmp/work/pkgtools/pkg_install/work/.wrapper/bin:/usr/tmp/work/pkgtools/pkg_install/work/.buildlink/bin:/usr/tmp/work/pkgtools/pkg_install/work/.gcc/bin:/usr/tmp/work/pkgtools/pkg_install/work/.tools/bin:/usr/pkg/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg.sav/gcc44/bin:/usr/pkg.sav/bin:/usr/pkg.sav/sbin:/home/beng/bin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/pkg/X11R6/bin:/usr/pkg/bin:/usr/pkg/X11R6/bin PREFIX=/usr/pkg PKG_SYSCONFDIR=/usr/pkg/etc CXXCPP=cpp HOME=/usr/tmp/work/pkgtools/pkg_install/work/.home CONFIG_SHELL=/bin/sh LIBS=-larchive\ -larchive\ -lbz2\ -lz\ -lnbcompat ac_given_INSTALL=/bin/install\ -c\ -o\ root\ -g\ operator
+CPPFLAGS= -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -DDEF_UMASK=022 -D_NETBSD_SOURCE -D_MINIX -D_POSIX_SOURCE -D_COMPAT_MINIX -I/usr/tmp/work/pkgtools/pkg_install/work/libfetch  -DHAVE_NBCOMPAT_H=1 -I/usr/tmp/work/pkgtools/pkg_install/work/libnbcompat 
+FFLAGS=-O
+HOMEPAGE=http://www.pkgsrc.org/
+LDFLAGS= -lcompat_minix -lminlib -L/usr/tmp/work/pkgtools/pkg_install/work/libfetch  -L/usr/tmp/work/pkgtools/pkg_install/work/libnbcompat -Wl,-R/usr/pkg/lib
+LICENSE=modified-bsd
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=agc@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=a.out
+OPSYS=Minix
+OS_VERSION=3.2.1
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=pkgtools/pkg_install
+PKGTOOLS_VERSION=20110805
+PKG_OPTIONS=
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+RESTRICTED=
+SSLCERTS=/usr/pkg/etc/openssl/certs
+SSLDIR=/usr/pkg/etc/openssl
+SSLKEYS=/usr/pkg/etc/openssl/private
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

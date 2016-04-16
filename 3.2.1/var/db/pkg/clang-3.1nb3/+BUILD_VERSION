@@ -1,0 +1,12 @@
+minix/clang31/Makefile:	$NetBSD$
+minix/clang31/PLIST:	$NetBSD$
+minix/clang31/buildlink3.mk:	$NetBSD$
+minix/clang31/distinfo:	$NetBSD$
+minix/clang31/patches/patch-Makefile.config.in:	$NetBSD$
+minix/clang31/patches/patch-klee_Makefile.common:	$NetBSD$
+minix/clang31/patches/patch-klee_tools_klee_main.cpp:	$NetBSD$
+minix/clang31/patches/patch-lib_Support_Unix_Unix.h:	$NetBSD$
+minix/clang31/patches/patch-lib_Support_raw__ostream.cpp:	$NetBSD$
+minix/clang31/patches/patch-tools_clang_lib_Driver_Tools.cpp:	$NetBSD$
+minix/clang31/patches/patch-tools_clang_lib_Frontend_InitHeaderSearch.cpp:	$NetBSD$
+minix/clang31/patches/patch-utils_lit_lit_main.py:	$NetBSD$

@@ -1,0 +1,59 @@
+@cwd /usr/pkg
+@pkgcfl mk-files-[0-9]*
+@name bootstrap-mk-files-20090807nb3
+@comment $NetBSD: PLIST,v 1.2 2006/08/24 17:49:52 wiz Exp $
+share/mk/bsd.README
+@comment MD5:660197e505bed267a6f8f2229d742b6f
+share/mk/bsd.dep.mk
+@comment MD5:24a6923e702f4bd56075d150ea89dc3b
+share/mk/bsd.depall.mk
+@comment MD5:0278d7b7beb241eda95ec9989e62fe96
+share/mk/bsd.doc.mk
+@comment MD5:9dbb359546906163d14b5befc30f0a8a
+share/mk/bsd.files.mk
+@comment MD5:3428dbc73feb6066f246ec590d778f4e
+share/mk/bsd.hostprog.mk
+@comment MD5:cc250bb1183594f59b9b89c87608d547
+share/mk/bsd.inc.mk
+@comment MD5:38d76bf8ee52996ccbdbe98beafbb9dc
+share/mk/bsd.info.mk
+@comment MD5:fb7fd1ddf666107020a64caad0457ca3
+share/mk/bsd.kernobj.mk
+@comment MD5:4d62a23f575d11c94ca96b99c17e77c1
+share/mk/bsd.kinc.mk
+@comment MD5:d7f72d85503aa05c31c8b1bf05f2203d
+share/mk/bsd.kmod.mk
+@comment MD5:9c91a803e1470e028ad5948d559455ea
+share/mk/bsd.lib.mk
+@comment MD5:8e7d1d7126d14c1ef118305a61c31420
+share/mk/bsd.links.mk
+@comment MD5:2269711798c12282b3e0e3d3f75032e7
+share/mk/bsd.man.mk
+@comment MD5:679ff0d69cec63c660b933e263ea138e
+share/mk/bsd.nls.mk
+@comment MD5:34bb1f0290e2a7128cda1bd14c8b98e6
+share/mk/bsd.obj.mk
+@comment MD5:2bdb1f6d1594bf50e4756109d4146f88
+share/mk/bsd.own.mk
+@comment MD5:e3fe936a75d1afefba9122d5ad7cde4f
+share/mk/bsd.prog.mk
+@comment MD5:343900fcbd7f73b95cdb0cf0f21f6767
+share/mk/bsd.subdir.mk
+@comment MD5:c50d6929a5be2535d1f322372402d36b
+share/mk/bsd.sys.mk
+@comment MD5:268fa4b083f8b40ceba9d6c94d0212a0
+share/mk/sys.mk
+@comment MD5:f9a6fecc412e651b4501af28d210d96a
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

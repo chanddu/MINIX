@@ -1,0 +1,34 @@
+ABI=
+BUILD_DATE=2012-03-07 17:59:02 +0100
+BUILD_HOST=Minix minix 3.2.1 i686
+CATEGORIES=devel
+CC_VERSION=gcc-4.4.6
+CFLAGS=-Wno-error -march=i586
+CMAKE_ARGS=
+CONFIGURE_ARGS=
+CONFIGURE_ENV=INSTALL_INFO= MAKEINFO=/usr/tmp/work/devel/bmake/work/.tools/bin/makeinfo PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/tmp/work/devel/bmake/work/.buildlink/lib/pkgconfig:/usr/tmp/work/devel/bmake/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/tmp/work/devel/bmake/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -march=i586 CPPFLAGS=-D_NETBSD_SOURCE\ -D_MINIX\ -D_POSIX_SOURCE\ -D_COMPAT_MINIX\ -DHAVE_NBCOMPAT_H=1\ -I/usr/tmp/work/devel/bmake/work/libnbcompat CXX=g++ CXXFLAGS=-Wno-error\ -march=i586\ -D_NETBSD_SOURCE COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-lcompat_minix\ -lminlib\ -L/usr/tmp/work/devel/bmake/work/libnbcompat\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/tmp/work/devel/bmake/work/.wrapper/bin:/usr/tmp/work/devel/bmake/work/.buildlink/bin:/usr/tmp/work/devel/bmake/work/.gcc/bin:/usr/tmp/work/devel/bmake/work/.tools/bin:/usr/pkg/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg.sav/gcc44/bin:/usr/pkg.sav/bin:/usr/pkg.sav/sbin:/home/beng/bin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/pkg/X11R6/bin:/usr/pkg/bin:/usr/pkg/X11R6/bin PREFIX=/usr/pkg PKG_SYSCONFDIR=/usr/pkg/etc CXXCPP=cpp HOME=/usr/tmp/work/devel/bmake/work/.home
+CPPFLAGS= -D_NETBSD_SOURCE -D_MINIX -D_POSIX_SOURCE -D_COMPAT_MINIX  -DHAVE_NBCOMPAT_H=1 -I/usr/tmp/work/devel/bmake/work/libnbcompat 
+FFLAGS=-O
+HOMEPAGE=http://www.crufty.net/help/sjg/bmake.html
+LDFLAGS= -lcompat_minix -lminlib  -L/usr/tmp/work/devel/bmake/work/libnbcompat -Wl,-R/usr/pkg/lib
+LICENSE=modified-bsd
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=joerg@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=a.out
+OPSYS=Minix
+OS_VERSION=3.2.1
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=devel/bmake
+PKGTOOLS_VERSION=20110805
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

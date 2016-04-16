@@ -1,0 +1,24 @@
+@cwd /usr/pkg
+@name compiler-rt-3.1nb14774700
+@blddep digest-20080510
+@blddep cmake-2.8.6
+@blddep cmake-2.8.6
+@blddep gzip-1.3.12nb3
+@comment $NetBSD$
+compiler-rt/lib/libCompilerRT-Generic.a
+@comment MD5:4a670dda20b5052cf53aa9b8a0e3ef38
+lib/libCompilerRT-Generic.a
+@comment MD5:4a670dda20b5052cf53aa9b8a0e3ef38
+@cwd .
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

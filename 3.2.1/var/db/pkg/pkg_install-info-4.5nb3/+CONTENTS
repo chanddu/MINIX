@@ -1,0 +1,18 @@
+@cwd /usr/pkg
+@name pkg_install-info-4.5nb3
+@comment $NetBSD$
+bin/pkg_install-info
+@comment MD5:496e489210619ed245edec64e1c7b4ec
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

@@ -1,0 +1,1 @@
+/* The following names are synonyms for the variables in the input message. */

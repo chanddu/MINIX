@@ -1,0 +1,35 @@
+ABI=
+BUILD_DATE=2012-03-07 16:23:38 +0100
+BUILD_HOST=Minix minix 3.2.1 i686
+BUILTIN_PKGS=libarchive-2.8.3 bzip2-1.0.5 zlib-1.2.5
+CATEGORIES=pkgtools
+CC_VERSION=gcc-4.4.6
+CFLAGS=-Wno-error -march=i586 -I/usr/pkg/include -I/usr/include
+CMAKE_ARGS=
+CONFIGURE_ARGS= --prefix=/usr/pkg --build=i386-pc-minix --host=i386-pc-minix --mandir=/usr/pkg/man
+CONFIGURE_ENV=INSTALL_INFO= MAKEINFO=/usr/tmp/work/pkgtools/pkgin/work/.tools/bin/makeinfo AWK=/usr/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/usr/bin/chmod CMP=/usr/bin/cmp CP=/bin/cp DIFF=/usr/bin/diff ECHO=/bin/echo ac_cv_path_ECHO=/bin/echo EGREP=/usr/bin/egrep ac_cv_path_EGREP=/usr/bin/egrep SETENV=/usr/bin/env ENV_PROG=/usr/bin/env ac_cv_path_ENV=/usr/bin/env FALSE=/bin/false ac_cv_path_FALSE=/bin/false FIND=/usr/bin/find GREP=/usr/bin/grep ac_cv_path_GREP=/usr/bin/grep HOSTNAME=/usr/bin/hostname LN=/bin/ln LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/usr/bin/rmdir SED=/bin/sed SORT=/usr/bin/sort TEST=/bin/test ac_cv_path_TEST=/bin/test TOUCH=/usr/bin/touch TR=/usr/bin/tr TRUE=/bin/true ac_cv_path_TRUE=/bin/true PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/tmp/work/pkgtools/pkgin/work/.buildlink/lib/pkgconfig:/usr/tmp/work/pkgtools/pkgin/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/tmp/work/pkgtools/pkgin/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -march=i586\ -I/usr/pkg/include\ -I/usr/include CPPFLAGS=-D_NETBSD_SOURCE\ -D_MINIX\ -D_POSIX_SOURCE\ -D_COMPAT_MINIX\ -DHAVE_NBCOMPAT_H=1\ -I/usr/tmp/work/pkgtools/pkgin/work/libnbcompat\ -I/usr/pkg/include\ -I/usr/include CXX=g++ CXXFLAGS=-Wno-error\ -march=i586\ -I/usr/pkg/include\ -I/usr/include\ -D_NETBSD_SOURCE COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-lcompat_minix\ -lminlib\ -L/usr/tmp/work/pkgtools/pkgin/work/libnbcompat\ -L/usr/pkg/lib\ -Wl,-R/usr/pkg/lib\ -L/usr/lib\ -Wl,-R/usr/lib LINKER_RPATH_FLAG=-R PATH=/usr/tmp/work/pkgtools/pkgin/work/.wrapper/bin:/usr/tmp/work/pkgtools/pkgin/work/.buildlink/bin:/usr/tmp/work/pkgtools/pkgin/work/.gcc/bin:/usr/tmp/work/pkgtools/pkgin/work/.tools/bin:/usr/pkg/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg.sav/gcc44/bin:/usr/pkg.sav/bin:/usr/pkg.sav/sbin:/home/beng/bin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/pkg/X11R6/bin:/usr/pkg/bin:/usr/pkg/X11R6/bin PREFIX=/usr/pkg PKG_SYSCONFDIR=/usr/pkg/etc CXXCPP=cpp HOME=/usr/tmp/work/pkgtools/pkgin/work/.home CONFIG_SHELL=/bin/sh LIBS=-lnbcompat ac_given_INSTALL=/bin/install\ -c\ -o\ root\ -g\ operator
+CPPFLAGS= -D_NETBSD_SOURCE -D_MINIX -D_POSIX_SOURCE -D_COMPAT_MINIX  -DHAVE_NBCOMPAT_H=1 -I/usr/tmp/work/pkgtools/pkgin/work/libnbcompat  -I/usr/pkg/include -I/usr/include
+FFLAGS=-O
+HOMEPAGE=http://pkgin.net/
+LDFLAGS= -lcompat_minix -lminlib  -L/usr/tmp/work/pkgtools/pkgin/work/libnbcompat -L/usr/pkg/lib -Wl,-R/usr/pkg/lib -L/usr/lib -Wl,-R/usr/lib
+LICENSE=modified-bsd
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=imil@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=a.out
+OPSYS=Minix
+OS_VERSION=3.2.1
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=pkgtools/pkgin
+PKGTOOLS_VERSION=20110805
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

@@ -1,0 +1,80 @@
+@cwd /usr/pkg
+@pkgcfl audit-packages-[0-9]*
+@name pkg_install-20110805nb2
+@comment $NetBSD: PLIST,v 1.11 2009/02/02 12:34:59 joerg Exp $
+man/cat1/pkg_add.0
+@comment MD5:fd581e029b91969d43301d98684ca082
+man/cat1/pkg_admin.0
+@comment MD5:15c022b2c0e843bd96b074b02adc2908
+man/cat1/pkg_create.0
+@comment MD5:51e9d9a37402c041b64ff569eee1d059
+man/cat1/pkg_delete.0
+@comment MD5:c92c62a8eedb9084f6a1b97967d0ccbe
+man/cat1/pkg_info.0
+@comment MD5:5cb40835d0cd64c64c4a13eacb0ab9f9
+man/cat5/pkg_install.conf.0
+@comment MD5:daec6cd8b8b580d5af1fd5891752da68
+man/cat5/pkg_summary.0
+@comment MD5:4e0d55f2e78fe6e1c97de7f54aee5ef7
+man/cat7/pkgsrc.0
+@comment MD5:522174aaa0263ccf1a715e27c8904977
+man/cat8/audit-packages.0
+@comment MD5:ecde4cbf3de00f28088e1a93119178bc
+man/cat8/download-vulnerability-list.0
+@comment MD5:b3174138abaaa7a871a62b4798ae6ecd
+man/man1/pkg_add.1
+@comment MD5:7d2fbf0066ed650126b050791efc70fd
+man/man1/pkg_admin.1
+@comment MD5:053a5f0adb19e4b62732d15d9026097e
+man/man1/pkg_create.1
+@comment MD5:f5d2f6961354f54aabb6e02ae76d9809
+man/man1/pkg_delete.1
+@comment MD5:a194ce7c7186f788faf7693b4009996e
+man/man1/pkg_info.1
+@comment MD5:c065ead96a1ecaf93efe9e62d24c0c9f
+man/man5/pkg_install.conf.5
+@comment MD5:3785e5ef87fd3911961ecd412b58b3da
+man/man5/pkg_summary.5
+@comment MD5:6db70687cbef1eeaf68f38bf6a5b6e23
+man/man7/pkgsrc.7
+@comment MD5:4a35408e4c4a6c4570af468b113873fd
+man/man8/audit-packages.8
+@comment MD5:22c1855ec06f2dc0a1f1c80b4fff3ea9
+man/man8/download-vulnerability-list.8
+@comment MD5:1d69f27782ec0e7e086b3cba36a4f2ec
+sbin/audit-packages
+@comment MD5:d09aea4dc697d0051c09044b927059a8
+sbin/download-vulnerability-list
+@comment MD5:03bc26109bd103eb06a0e39d2387b1d6
+sbin/pkg_add
+@comment MD5:1c75c06614ebe02917db0a52d90957d7
+sbin/pkg_admin
+@comment MD5:fb9d74464c93419ae6ab6a49e7d7d7e6
+sbin/pkg_create
+@comment MD5:b4cfb8eb4a3aea5a35c2cb83b989c669
+sbin/pkg_delete
+@comment MD5:7aef97efc996416701faac9eebc53df8
+sbin/pkg_info
+@comment MD5:9c4d167d203424e3f077f067f7ecb1f9
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++DISPLAY
+@display +DISPLAY
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL
+@ignore
++PRESERVE
